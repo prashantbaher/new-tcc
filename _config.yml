@@ -20,11 +20,15 @@ description: Free Visual Basic for Application tutorial for Solidworks 3d softwa
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Author's home: "http://deanattali.com"
+  VBA Tutorials : "VBA"
+  Solidworks Tutorials: "solidworks-macro"
+  Privacy Policy: "privacy-policy"
+  About Me: "about"
+  
+#  Resources:
+#    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+#    - Learn markdown: "http://www.markdowntutorial.com/"
+#  Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -70,8 +74,8 @@ social-network-links:
   rss: true
   email: thecadcoder@gmail.com
   facebook: The-CAD-Coder-2302385700020635
-  github: The-CAD-Coder
-  twitter: The-CAD-Coder
+#  github: The-CAD-Coder
+#  twitter: The-CAD-Coder
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -93,7 +97,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "thecadcoder.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 

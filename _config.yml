@@ -20,9 +20,9 @@ description: Free Visual Basic for Application tutorial for Solidworks 3d softwa
 
 # List of links in the navigation bar
 navbar-links:
-  VBA Tutorials : "VBA"
-  Solidworks Tutorials: "solidworks-macro"
-  Privacy Policy: "privacy-policy"
+  VBA Tutorials : "VBA-guide"
+  Solidworks Tutorials: "Solidworks-macros-guide"
+  Privacy Policy: "Disclaimer"
   About Me: "about"
   
 #  Resources:

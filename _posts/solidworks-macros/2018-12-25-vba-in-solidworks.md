@@ -1,4 +1,5 @@
 ---
+layout: post
 categories: Solidworks-macros
 title: VBA in Solidworks
 ---

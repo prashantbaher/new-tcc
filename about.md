@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About me
-subtitle: Here I tell you about myself
 permalink: /about/
+subtitle: Here I tell you about myself
 ---
 
 I am a **CAD engineer** and working on **Solidworks** 3D Software.

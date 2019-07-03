@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: My website
+title: The CAD Coder
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: Free Visual Basic for Application tutorial for Solidworks 3d software macro programming.
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -60,7 +60,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: The CAD Coder
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -68,10 +68,10 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: thecadcoder@gmail.com
+  facebook: The-CAD-Coder-2302385700020635
+  github: The-CAD-Coder
+  twitter: The-CAD-Coder
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -156,7 +156,7 @@ title-separator: "-"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+# permalink: /:categories/:title
 paginate: 5
 
 kramdown:
@@ -170,6 +170,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      permalink: /:categories/:title
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
@@ -177,7 +178,7 @@ defaults:
       path: "" # all files
     values:
       layout: "page"
-      show-avatar: true
+      show-avatar: false
 
 # Use tags index page and make tags on each post clickable
 link-tags: true

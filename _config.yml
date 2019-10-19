@@ -4,7 +4,7 @@
 title: The CAD Coder
 
 # Short description of your site
-description: Free Visual Basic for Application tutorial for Solidworks 3d software macro programming.
+description: Free Visual Basic tutorial for Solidworks 3d software macro programming.
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -20,10 +20,13 @@ description: Free Visual Basic for Application tutorial for Solidworks 3d softwa
 
 # List of links in the navigation bar
 navbar-links:
-  VBA Tutorials : "VBA-guide"
-  Solidworks Tutorials: "Solidworks-macros-guide"
-  Privacy Policy: "Disclaimer"
-  About Me: "about"
+  Support Me: "www.patreon.com"
+  Tutorials:
+    - VBA Tutorials : "VBA-guide"
+    - Solidworks Tutorials: "Solidworks-macros-guide"
+  About:
+    - Privacy Policy: "Disclaimer"
+    - About Me: "about"
   
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"

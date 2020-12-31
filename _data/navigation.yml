@@ -14,7 +14,7 @@ main:
     url: /aboutMe/
 
 vba:
-  - title: "Introduction"
+  - title: Introduction
   children:
     - title: "VBA Introduction"
       url: /visual-basic/vba-introduction/

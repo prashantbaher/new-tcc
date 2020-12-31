@@ -1,7 +1,8 @@
 ---
 title: About
-image:  post-image.jpg
 permalink: /about/
+toc: true
+excerpt: "About myself and why I created this website."
 ---
 
 Hello, 

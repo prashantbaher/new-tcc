@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: /about/
+permalink: /aboutMe/
 toc: true
 excerpt: "About myself and why I created this website."
 ---

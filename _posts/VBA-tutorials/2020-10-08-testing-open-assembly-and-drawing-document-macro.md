@@ -47,7 +47,7 @@ For testing our VBA macro, we apply some checks so that macro perform same at al
 
 Below is code block where we want to apply our check.
 
-``` VB
+```vb
 Option Explicit
 
 ' Creating variable for Solidworks application

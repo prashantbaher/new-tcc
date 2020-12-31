@@ -1,5 +1,4 @@
 ---
-layout: post
 categories: Visual-Basic
 title:  VBA Userforms - Browse SOLIDWORKS file(s)
 image:  post-image.jpg

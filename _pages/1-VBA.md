@@ -1,7 +1,8 @@
 ---
 title: VBA 
-image:  post-image.jpg
 permalink: /VBA-guide/
+toc: true
+excerpt: "This page is about VBA and its related pages"
 ---
 
 In this page, you found **VBA** articles in sections.

@@ -3,8 +3,6 @@ title: VBA
 permalink: /VBA-guide/
 toc: true
 excerpt: "This page is about VBA and its related pages"
-sidebar:
-  nav: "vba"
 ---
 
 In this page, you found **VBA** articles in sections.

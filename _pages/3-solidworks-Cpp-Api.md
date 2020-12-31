@@ -1,8 +1,8 @@
 ---
-layout: page
 title: Solidworks C++ API
-image:  post-image.jpg
 permalink: /Solidworks-cpp-api-tutorials/
+toc: true
+excerpt: "Page containing all articles related to Solidworks C++ API."
 ---
 
 > Disclaimer, this page is only for my learning purpose!!!

@@ -1,8 +1,8 @@
 ---
-layout: page
 title: Resources
-image:  post-image.jpg
 permalink: /resources/
+toc: true
+excerpt: "Page containing resources I found useful."
 ---
 
 In this page, I have listed all the **resources** I used for learning **programming languages and Solidworks API**. 

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: VBA 
 image:  post-image.jpg
 permalink: /VBA-guide/

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: About
 image:  post-image.jpg
 permalink: /about/

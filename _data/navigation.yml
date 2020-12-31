@@ -4,14 +4,15 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "VBA"
     url: /VBA-guide/
-  - title: "About"
-    url: /aboutMe/
-  - title: "About"
-    url: /about/
-  - title: "About"
-    url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  Solidworks:
+    - title: "Solidworks VBA Macro"
+      url: /Solidworks-macro-guide/
+    - title: "Solidworks C++ API"
+      url: /Solidworks-cpp-api-tutorials/
+    - title: "Resources"
+      url: /resources/
+    - title: "About"
+      url: /aboutMe/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

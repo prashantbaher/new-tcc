@@ -16,7 +16,7 @@ If you are **a total beginner** let us say *CAD engineer*, then follow the list 
 
 ## Visual Basic for Application and Visual Basic Editor
 
-* [Visual Basic for Application Introduction](/visual-basic/vba-introduction)
+* [Visual Basic for Application Introduction](/vba/vba-introduction)
 
 * [Visual Basic Editor (VBE)](/visual-basic/vbe-editor)
 

@@ -12,3 +12,9 @@ main:
     url: /resources/
   - title: "About"
     url: /aboutMe/
+
+vba:
+  - title: Getting Started
+    children:
+      - title: "VBA Introduction"
+        url: /vba/vba-introduction/

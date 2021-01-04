@@ -4,7 +4,6 @@ categories: Visual-Basic
 title: Visual Basic for Application Introduction
 image:  post-image.jpg
 tags:   [VBA]
-permalink: /vba/vba-introduction/
 ---
 
 To understand `Visual Basic for Application`, lets look at the following *questions*.

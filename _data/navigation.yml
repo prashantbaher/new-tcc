@@ -39,7 +39,15 @@ vba:
       - title: "VBA Introduction"
         url: /vba/vba-Introduction/
       - title: "VBA Visual Basic Editor"
-        url: /vba/vba-vbe-editor/        
+        url: /vba/vba-vbe-editor/    
+      - title: "VBE Windows"
+        url: /vba/vba-windows/ 
+      - title: "VBE Sub and Function Procedures"
+        url: /vba/sub-and-function-procedure/  
+      - title: "VBE Executing Sub and Function Procedures"
+        url: /vba/executing-procedures/
+      - title: "VBE Programming Concepts, Comments and Data-types"
+        url: /vba/programming-concepts/ 
 
 solidworks-cpp:
   - title: Getting Started

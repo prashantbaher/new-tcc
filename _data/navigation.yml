@@ -46,6 +46,8 @@ vba:
         url: /vba/sub-and-function-procedure/  
       - title: "VBA Executing Sub and Function Procedures"
         url: /vba/executing-procedures/
+  - title: Programming Concepts
+    children:
       - title: "VBA Programming Concepts, Comments and Data-types"
         url: /vba/programming-concepts/ 
       - title: "VBA Variables"
@@ -74,12 +76,34 @@ vba:
         url: /vba/if-then-structure-select-case/
       - title: "VBA Looping"
         url: /vba/looping/
-
-
-
-
-
-
+      - title: "VBA Bug Finding"
+        url: /vba/bug-finding/
+      - title: "VBA Debugger"
+        url: /vba/debugger/
+      - title: "VBA Bug Reduction Tips"
+        url: /vba/bug-reduction-tips/
+  - title: Dialog Boxes
+    children:
+      - title: "VBA Dialog Boxes"
+        url: /vba/dialog-boxes/
+      - title: "VBA MsgBox Function"
+        url: /vba/msgBox-function/
+      - title: "VBA InputBox Function"
+        url: /vba/inputbox-function/
+      - title: "VBA GetOpenFilename, GetSaveAsFilename and Getting a Folder Name"
+        url: /vba/other-dialogs/
+  - title: UserForms
+    children:
+      - title: "VBA UserForms"
+        url: /vba/userform/
+      - title: "VBA Userforms - Open new Part document"
+        url: /vba/open-part-from-userform/
+      - title: "VBA Userforms - Open new Assembly and Drawing document"
+        url: /vba/open-assembly-and-drawing-from-userform/
+      - title: "VBA Userforms - Testing Open new Assembly and Drawing document"
+        url: /vba/testing-open-assembly-and-drawing-document-macro/
+      - title: "VBA Userforms - Browse SOLIDWORKS file(s)"
+        url: /vba/browse-solidworks-file/
 
 solidworks-cpp:
   - title: Getting Started

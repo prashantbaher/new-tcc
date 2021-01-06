@@ -2,14 +2,6 @@
 title: Controlling Program Flow and Making Decisions
 tags:   [VBA]
 permalink: /vba/controlling-flow-making-desicions/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 Some VBA *procedures* start at the code’s beginning and progress line by line to the end, never deviating from this top-to-bottom program flow. 

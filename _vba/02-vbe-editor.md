@@ -2,14 +2,6 @@
 title: Visual Basic Editor (VBE)
 tags:   [VBA]
 permalink: /vba/vba-vbe-editor/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 `Visual Basic Editor` or `VBE` is a *separate* application in your *CAD application*. 

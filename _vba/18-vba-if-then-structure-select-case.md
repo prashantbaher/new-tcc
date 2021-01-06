@@ -2,14 +2,6 @@
 title: If-Then-Else and Select Case structure
 tags:   [VBA]
 permalink: /vba/if-then-structure-select-case/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 `If-Then` is VBA’s most important control structure. You’ll probably use this command on a daily basis. 

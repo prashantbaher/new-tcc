@@ -2,40 +2,6 @@
 title:  VBA Userforms - Browse SOLIDWORKS file(s)
 tags:   [VBA]
 permalink: /vba/browse-solidworks-file/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
----
-
-## Content
-
-This post is divided into below sections:
-
-  - *[Introduction](#introduction)*
-
-  - *[Creating Userform](#creating-userform)*
-  
-  - *[Adding Controls into Userform](#adding-controls-into-userform)*
-
-  - *[Updating Properties](#updating-properties)*
-
-  - *[Call UserForm in Main Module](#call-userform-in-main-module)*
-
-  - *[Add Functionality to Button](#add-functionality-to-button)*
-
-  - *[Method 1 - From `SldWorks` object directly](#method-1---from-sldworks-object-directly)*
-
-  - *[Method 2 - From **Microsoft Excel** externally](#method-2---from-microsoft-excel-externally)*
-
-  - *[Final words](#final-words)*
-
-Feel free to select the section you want to go!
-
 ---
 
 ## Introduction
@@ -74,13 +40,13 @@ If you don't know how to create a new macro in Solidworks, please go to **[VBA i
 
 This opens a **Visual Basic Editor** with some code as shown in below image.
 
-![solidworks-vba-window](/assets/vba-images/browse-solidworks-files/solidworks-vba-window.png) 
+![solidworks-vba-window]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/solidworks-vba-window.png) 
 
 After this we need to insert *a userform* in our macro.
 
 For this, select the button shown in below image.
 
-![insert-userform-button](/assets/vba-images/browse-solidworks-files/insert-userform-button.png) 
+![insert-userform-button]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/insert-userform-button.png) 
 
 This button is called ***insert userform***. 
 
@@ -104,21 +70,21 @@ Now in our userform window, we add following controls:
 
 You can find `TextBox` option, as highlighted in *Red Square* in below image.
 
-![textbox-in-userform](/assets/vba-images/browse-solidworks-files/textbox-in-userform.png)
+![textbox-in-userform]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/textbox-in-userform.png)
 
 After adding ComboBox, we get window as shown in below image.
 
-![textbox-inside-userform](/assets/vba-images/browse-solidworks-files/textbox-inside-userform.png)
+![textbox-inside-userform]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/textbox-inside-userform.png)
 
 ### Adding CommandButton
 
 You can find `CommandButton` option, as highlighted in *Red Square* in below image.
 
-![insert-command-button-into-userform](/assets/vba-images/browse-solidworks-files/insert-command-button-into-userform.png)
+![insert-command-button-into-userform]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/insert-command-button-into-userform.png)
 
 After adding CommandButton, we get window as shown in below image.
 
-![command-button-into-userform](/assets/vba-images/browse-solidworks-files/command-button-into-userform.png)
+![command-button-into-userform]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/command-button-into-userform.png)
 
 ***
 
@@ -142,7 +108,7 @@ We update following properties of the Userform:
 
 In below image, I have shown the properties of `Userform1` and update the properties:
 
-![update-userform-properties](/assets/vba-images/browse-solidworks-files/update-userform-properties.png)
+![update-userform-properties]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/update-userform-properties.png)
 
 Update the value of *Name* property from `UserForm1` to `BrowseDocumentWindow`.
 
@@ -162,7 +128,7 @@ We update following property of the TextBox:
 
 In below image, I have shown the properties of `TextBox` and update the properties:
 
-![update-textbox-properties](/assets/vba-images/browse-solidworks-files/update-textbox-properties.png)
+![update-textbox-properties]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/update-textbox-properties.png)
 
 Update the value of *Name* property from `TextBox` to `SelectedFileTextBox`.
 
@@ -178,7 +144,7 @@ We update following properties of the Command Button:
 
 In below image, I have shown the properties of `CommandButton1` and update the properties:
 
-![update-command-button-properties](/assets/vba-images/browse-solidworks-files/update-command-button-properties.png)
+![update-command-button-properties]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/update-command-button-properties.png)
 
 Update the value of *Name* property from `CommandButton1` to `BrowseDocumentButton`.
 
@@ -358,11 +324,11 @@ After the function complete following are the results:
 
 Below image shows our **form** in SOLIDWORKS.
 
-![userform-in-solidworks](/assets/vba-images/browse-solidworks-files/userform-in-solidworks.png "Our userform in Solidworks")
+![userform-in-solidworks]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/userform-in-solidworks.png "Our userform in Solidworks")
 
 Below image shows the opened window.
 
-![browse-window](/assets/vba-images/browse-solidworks-files/browse-window.png "Browsing window")
+![browse-window]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/browse-window.png "Browsing window")
 
 ```vb
 ' Show the selected file's full path in text box
@@ -373,7 +339,7 @@ Now we set the value of text box to **browsed** file name.
 
 Final window of method 1 is shown below/.
 
-![final-window-of-method-first](/assets/vba-images/browse-solidworks-files/final-window-of-method-first.png "Final window from Method 1")
+![final-window-of-method-first]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/final-window-of-method-first.png "Final window from Method 1")
 
 ---
 
@@ -393,15 +359,15 @@ Please see following steps for adding reference files:
 
   1. Select reference option as shown in below image.
 
-  ![select-reference-option](/assets/vba-images/browse-solidworks-files/select-reference-option.png "Select reference option from Tools options")
+  ![select-reference-option]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/select-reference-option.png "Select reference option from Tools options")
 
   2. This open Reference window as shown in below image.
 
-  ![reference-window](/assets/vba-images/browse-solidworks-files/reference-window.png "Reference window")
+  ![reference-window]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/reference-window.png "Reference window")
 
   3. Now select option given in below images and Press OK after selecting files..
 
-  ![add-excel-reference](/assets/vba-images/browse-solidworks-files/add-excel-reference.png "Select reference file highlighted in red box")
+  ![add-excel-reference]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/add-excel-reference.png "Select reference file highlighted in red box")
 
 Now, replace code in *[Add Functionality to Button](#add-functionality-to-button)* with below code sample.
 
@@ -536,15 +502,15 @@ After the function complete following are the results:
 
 Below image shows our **form** in SOLIDWORKS.
 
-![userform-in-solidworks](/assets/vba-images/browse-solidworks-files/userform-in-solidworks.png "Our userform in Solidworks")
+![userform-in-solidworks]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/userform-in-solidworks.png "Our userform in Solidworks")
 
 Below image shows the opened window.
 
-![excel-browse-window](/assets/vba-images/browse-solidworks-files/excel-browse-window.png "Browsing window using MS Excel")
+![excel-browse-window]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/excel-browse-window.png "Browsing window using MS Excel")
 
 Below image shows the **multi-selection** in opened window.
 
-![multiple-select-window](/assets/vba-images/browse-solidworks-files/multiple-select-window.png "Multilpe file selection in Browsing window using MS Excel")
+![multiple-select-window]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/multiple-select-window.png "Multilpe file selection in Browsing window using MS Excel")
 
 ```vb
 ' Show the selected file's full path in text box
@@ -555,7 +521,7 @@ Now we set the value of text box to **browsed** file name.
 
 Final window of method 1 is shown below/.
 
-![final-window-of-method-second](/assets/vba-images/browse-solidworks-files/final-window-of-method-first.png "Final window from Method 2")
+![final-window-of-method-second]({{ site.url }}{{ site.baseurl }}/assets/vba-images/browse-solidworks-files/final-window-of-method-first.png "Final window from Method 2")
 
 *Final window of both method is same.*
 

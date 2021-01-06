@@ -2,14 +2,6 @@
 title: VBA UserForms
 tags:   [VBA]
 permalink: /vba/userform/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 A *UserForm* is useful if your VBA macro needs to get information from a user. 
@@ -56,7 +48,7 @@ To insert a UserForm object with the following steps:
 
   * From "Menu Bar" -> "UserForm"
 
-  * From “Standard Toolbar” by clicking “Insert UserForm” ![A-new-userform-object](/assets/vba-images/Userforms/3. Insert userform button in standard toolbar.PNG)
+  * From “Standard Toolbar” by clicking “Insert UserForm” ![A-new-userform-object]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Userforms/3. Insert userform button in standard toolbar.PNG)
 
   The VBE insert a new UserForm object with an empty dialog box.
 
@@ -66,7 +58,7 @@ The VBE inserts a new UserForm object, which contains an empty dialog box.
 
 Below figure shows a UserForm — an empty dialog box with some controls in Toolbox.
 
-![Empty-userform-object](/assets/vba-images/Userforms/1. A new userform object.PNG)
+![Empty-userform-object]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Userforms/1.Anewuserformobject.PNG)
 
 
 ## Adding controls to a UserForm
@@ -189,7 +181,7 @@ You can change these properties with the *Properties window*.
 
 Below figure shows the properties window when a `CommandButton` control is selected:
 
-![Empty-userform-object](/assets/vba-images/Userforms/2. Use the Properties windows to change the properties of UserForm controls.PNG)
+![Empty-userform-object]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Userforms/2.UsethePropertiesWindowstoChangethePropertiesofUserFormControls.PNG)
 
 Properties for controls include the following:
 

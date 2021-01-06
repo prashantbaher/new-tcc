@@ -2,14 +2,6 @@
 title: VBA Variables
 tags:   [VBA]
 permalink: /vba/variables/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 `VBA’s` main purpose is to manipulate data. `VBA` stores the *data* in your computer’s *memory*; it may or may not end up on disk. 

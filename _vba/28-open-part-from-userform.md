@@ -2,14 +2,6 @@
 title:  VBA Userforms - Open new Part document
 tags:   [VBA]
 permalink: /vba/open-part-from-userform/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 In this post, we learn how can we *open a part document* from a Visual Basic for Application's *Userform*.
@@ -35,7 +27,7 @@ If you don't know how to create a new macro in Solidworks, please go to [VBA in 
 
 This will open a new macro in Visual Basic Editor with some code as shown in below image.
 
-![new_macro_window](/assets/Solidworks_Images/Open new part from userform/1.new_macro_window.PNG) 
+![new_macro_window]({{ site.url }}{{ site.baseurl }}/assets/Solidworks_Images/Open_new_part_from_userform/1.new_macro_window.PNG) 
 
 ## Insert userform in the macro
 
@@ -43,7 +35,7 @@ After this we need to insert a userform in our macro.
 
 For this, select the button shown in below image.
 
-![insert-userform-button](/assets/Solidworks_Images/Open new part from userform/2.insert-userform-button.png)
+![insert-userform-button]({{ site.url }}{{ site.baseurl }}/assets/Solidworks_Images/Open_new_part_from_userform/2.insert-userform-button.png)
 
 This button is called ***insert userform***. 
 
@@ -53,7 +45,7 @@ As the name suggest, function of this button is *inserting a userform*.
 
 After clicking the ***insert userform*** button we get the userform window as shown in below image.
 
-![userform-window](/assets/Solidworks_Images/Open new part from userform/3.userform-window.PNG)
+![userform-window]({{ site.url }}{{ site.baseurl }}/assets/Solidworks_Images/Open_new_part_from_userform/3.userform-window.PNG)
 
 ## Adding a Button
 
@@ -61,11 +53,11 @@ Now in our userform window, we add a `Command Button` at center of window.
 
 You can find `Command Button` highlighted in red in below image.
 
-![add-command-buton](/assets/Solidworks_Images/Open new part from userform/4.add-command-button.png)
+![add-command-buton]({{ site.url }}{{ site.baseurl }}/assets/Solidworks_Images/Open_new_part_from_userform/4.add-command-button.png)
 
 You can place command button at your desire. I placed it at center of the userform window as shown in below image.
 
-![userform-window-after-adding-command-button](/assets/Solidworks_Images/Open new part from userform/5.userform-window-after-adding-command-button.PNG)
+![userform-window-after-adding-command-button]({{ site.url }}{{ site.baseurl }}/assets/Solidworks_Images/Open_new_part_from_userform/5.userform-window-after-adding-command-button.PNG)
 
 ## Updating Properties of Command Button and Userform Windows
 
@@ -81,7 +73,7 @@ In below image, I have shown the properties of `Userform1` and update following 
 
 2. Caption of Userform
 
-![properties-to-change-in-userform](/assets/Solidworks_Images/Open new part from userform/6.properties-to-change-in-userform.png)
+![properties-to-change-in-userform]({{ site.url }}{{ site.baseurl }}/assets/Solidworks_Images/Open_new_part_from_userform/6.properties-to-change-in-userform.png)
 
 Update the value of *Name* property from `UserForm1` to `OurWindow`.
 

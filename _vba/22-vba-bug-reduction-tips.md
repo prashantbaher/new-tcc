@@ -2,14 +2,6 @@
 title: VBA Bug Reduction Tips
 tags:   [VBA]
 permalink: /vba/bug-reduction-tips/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 I can’t tell you how to completely eliminate bugs in your programs. 

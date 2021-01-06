@@ -2,14 +2,6 @@
 title: VBA Functions that do more
 tags:   [VBA]
 permalink: /vba/more-functions/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 A few VBA `functions` go above and beyond the call of duty. Rather than simply return a value, these functions have some useful side effects. 

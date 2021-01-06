@@ -2,30 +2,6 @@
 title:  VBA Userforms - Testing Open new Assembly and Drawing document
 tags:   [VBA Macro Testing]
 permalink: /vba/testing-open-assembly-and-drawing-document-macro/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
----
-
-## Content
-
-This post is divided into below sections:
-
-  - *[Introduction](#introduction)*
-
-  - *[Code block to check](#code-block-to-check)*
-  
-  - *[Apply check](#apply-check)*
-
-  - *[Cause of Error](#cause-of-error)*
-  
-Feel free to select the section you want to go!
-
 ---
 
 ## Introduction
@@ -119,7 +95,7 @@ If template path is **empty** then
 1. we *show a message* to user as show in below image.
 2. we **end** our `sub` procedure from here.
 
-![error-message-on-empty-template](/assets/vba-images/Open assembly and drawing from Userform/error-message-on-empty-template.png)
+![error-message-on-empty-template]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/error-message-on-empty-template.png)
 
 After adding our check, procedure has following code.
 
@@ -170,7 +146,7 @@ We have this error, if the value of templates path is **not set** in option sett
 
 For reference please see below image.
 
-![default-template-options](/assets/vba-images/Open assembly and drawing from Userform/default-template-options.png)
+![default-template-options]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/default-template-options.png)
 
 As you can see, in my machine these value are already set.
 

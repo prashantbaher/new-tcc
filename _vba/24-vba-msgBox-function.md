@@ -2,14 +2,6 @@
 title: VBA MsgBox Function
 tags:   [VBA]
 permalink: /vba/msgBox-function/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 You’re probably already familiar with the VBA `MsgBox` function — I use it quite a bit in the examples. 
@@ -86,7 +78,7 @@ End Sub
 
 Below figure shows how this message box looks:
 
-![A-Simple-Message-Box](/assets/vba-images/Dialog Boxes/A Simple Message Box.PNG)
+![A-Simple-Message-Box]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Dialog_Boxes/ASimpleMessageBox.PNG)
 
 ## Getting a response from a message box
 
@@ -118,7 +110,7 @@ When you execute this procedure, the `Ans` variable is assigned a value of eithe
 
 The `Select` Case statement uses the `Ans` value to determine which action the code should perform.
 
-![A-Simple-Message-Box-with-two-buttons](/assets/vba-images/Dialog Boxes/A Simple Message Box with two buttons.PNG)
+![A-Simple-Message-Box-with-two-buttons]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Dialog_Boxes/ASimpleMessageBoxWithTwoButtons.PNG)
 
 You can also use the `MsgBox` function result without using a variable, as the following example demonstrates:
 
@@ -280,7 +272,7 @@ If the user clicks the *No button* (or presses `Enter`), the routine ends with n
 
 Because I omitted the title argument in the *MsgBox* function, our application uses the default title, in my case it is *Solidworks*.
 
-![MsgBox-function-button](/assets/vba-images/Dialog Boxes/MsgBox function's button.PNG)
+![MsgBox-function-button]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Dialog_Boxes/MsgBoxfunctionsbutton.PNG)
 
 Previous examples have used constants (such as `vbYes` and `vbNo`) for the return value of a *MsgBox* function. 
 

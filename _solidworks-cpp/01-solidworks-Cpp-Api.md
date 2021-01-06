@@ -1,15 +1,7 @@
 ---
 title: Solidworks C++ API
 permalink: /Solidworks-cpp-api-tutorials/
-read_time: true
-share: true
-related: true
-toc: false
-toc_sticky: true
-excerpt: "Page containing all articles related to Solidworks C++ API."
-sidebar:
-  nav: "solidworks-cpp"
-author_profile: false
+tags:   [Solidworks C++ API]
 ---
 
 > Disclaimer, this page is only for my learning purpose!!!

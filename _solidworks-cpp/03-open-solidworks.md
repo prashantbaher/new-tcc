@@ -3,14 +3,6 @@ categories: Solidworks-C++-API
 title:  Open Solidworks & Hello World
 tags:   [Solidworks C++ API]
 permalink: /solidworks-cpp/open-solidworks/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "solidworks-cpp"
 ---
 
 In this post, I tell you about **how to Open Solidworks using Solidworks C++ API** from Visual Studio.

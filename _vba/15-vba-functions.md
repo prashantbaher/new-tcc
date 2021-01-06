@@ -2,14 +2,6 @@
 title: VBA Functions
 tags:   [VBA]
 permalink: /vba/functions/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 A `function` essentially performs a calculation and returns a single value. 

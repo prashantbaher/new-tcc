@@ -2,14 +2,6 @@
 title: VBE Windows
 tags:   [VBA]
 permalink: /vba/vba-windows/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 In this post we look following windows in `Visual Basic Editor`:
@@ -84,7 +76,7 @@ You get a `dialog box` that asks for a filename. Note that the object remains in
 Importing an object is also a similar process, which is shown below:
 
 1. Select the project’s name in the Explorer window.
-2. Select File -> Import file or press Ctrl + M.
+2. Select File -> Import file or press `Ctrl + M`.
 
 You get a dialog box that asks for a file. Locate the file and click open. 
 
@@ -102,7 +94,7 @@ Macros that you record are stored in a module, and you can type a `VBA code` *di
 
 If you have several projects open, the `VBE` may have lots of Code window at any given time. Below figure shows an example of this.
 
-![Visual-basic-editor](/assets/vba-images/VBE Environment/2. Example of Many code window.PNG)
+![Visual-basic-editor]({{ site.url }}{{ site.baseurl }}/assets/vba-images/VBE_Environment/2.Example_of_Many_code_window.PNG)
 
 `Code windows` are much like your files opened in `Solidworks`. You can minimize them, maximize them, resize them, and hide them and so on. 
 
@@ -210,7 +202,7 @@ End Sub
 
 If you entered the code correctly, `VBE` execute the procedure, and you can respond to the simple dialog box as shown in below figure.
 
-![Visual-basic-editor](/assets/vba-images/VBE Environment/3. Guess Name Dialog box.PNG)
+![Visual-basic-editor]({{ site.url }}{{ site.baseurl }}/assets/vba-images/VBE_Environment/3.Guess_Name_Dialog_box.PNG)
 
 When you enter the code listed in `step 4`, you might notice that the `VBE` makes some adjustments to the text you enter. 
 

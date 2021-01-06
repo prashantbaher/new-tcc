@@ -2,14 +2,6 @@
 title: VBA GetOpenFilename, GetSaveAsFilename and Getting a Folder Name
 tags:   [VBA]
 permalink: /vba/other-dialogs/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 If your VBA procedure needs to ask the user for a filename, you could use the *InputBox* function. 

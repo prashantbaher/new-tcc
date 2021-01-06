@@ -3,14 +3,6 @@ title:  Solidworks C++ API - Prerequisite
 tags:   [Solidworks C++ API]
 categories: Solidworks-C++-API
 permalink: /solidworks-cpp/Prerequisite/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "solidworks-cpp"
 ---
 
 In this post, I tell you what you need to start with *Solidworks C++ API*:

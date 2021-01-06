@@ -2,14 +2,6 @@
 title: Bug Finding
 tags:   [VBA]
 permalink: /vba/bug-finding/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 A **bug** is an error in your programming. Here I cover the topic of programming bugs — how to identify them and how to remove them from your module. 

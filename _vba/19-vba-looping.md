@@ -2,14 +2,6 @@
 title: VBA Looping
 tags:   [VBA]
 permalink: /vba/looping/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 The term *looping* refers to repeating a block of VBA statements numerous times. 

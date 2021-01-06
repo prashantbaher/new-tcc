@@ -2,14 +2,6 @@
 title: Variable Scope
 tags:   [VBA]
 permalink: /vba/variable-scope/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 A *variable’s* scope determines which modules and procedures can use the variable.
@@ -81,7 +73,7 @@ This is also where the `Option Explicit` statement is located.
 
 Below figure shows how you know when you’re working with the **Declarations** section. 
 
-![Variable-Scope-Example](/assets/vba-images/Programming Concepts/1. Variable Examples.PNG)
+![Variable-Scope-Example]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Programming_Concepts/1.VariableExamples.PNG)
 
 As shown in above image, I want a variable named `swApp`, so that it can available to all procedures in this module. 
 

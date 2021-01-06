@@ -2,14 +2,6 @@
 title: VBA Assignment Statements And Operators
 tags:   [VBA]
 permalink: /vba/assignment-statement-and-operator/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 An *assignment statement* is a *VBA statement* that assigns the result of an expression to a variable or an object. 

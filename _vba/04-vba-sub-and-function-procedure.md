@@ -2,14 +2,6 @@
 title: Sub and Function Procedures
 tags:   [VBA]
 permalink: /vba/sub-and-function-procedure/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 The `VBA` code that you write in the `Visual Basic Editor` is known as a `procedure`. 

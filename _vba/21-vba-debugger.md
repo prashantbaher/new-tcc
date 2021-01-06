@@ -2,14 +2,6 @@
 title: VBA Debugger
 tags:   [VBA]
 permalink: /vba/debugger/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 In this section, I discuss the details of using the VBA debugging tools. 
@@ -39,7 +31,7 @@ The results of setting a breakpoint are shown in below figure.
 
 *VBE* highlights the line to remind you that you set a breakpoint there; it also inserts a large dot in the gray margin.
 
-![Breakpoint-in-procedure](/assets/vba-images/Bug Finding & Debugging techniques/1. Breakpoint in procedure.PNG)
+![Breakpoint-in-procedure]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Bug_Finding_Debugging_techniques/1.BreakpointInProcedure.PNG)
 
 When you execute the procedure, VBE goes into Break mode before the line with the breakpoint is executed. 
 
@@ -67,7 +59,7 @@ A breakpoint is set (notice the big dot), and I’m using the `F8` key to step t
 
 I used the *Immediate window* to print `Hello world`.
 
-![Break-mode](/assets/vba-images/Bug Finding & Debugging techniques/2. Break mode.PNG)
+![Break-mode]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Bug_Finding_Debugging_techniques/2.BreakMode.PNG)
 
 ### Using the Immediate window
 
@@ -115,7 +107,7 @@ For example, you can create a watch expression that puts the procedure into Brea
 
 To create a watch expression, choose **Debug -> Add Watch** to display the Add Watch dialog box. See below figure.
 
-![Break-mode](/assets/vba-images/Bug Finding & Debugging techniques/3. Watch window dialog box.PNG)
+![Break-mode]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Bug_Finding_Debugging_techniques/3.WatchWindowDialogBox.PNG)
 
 The Add Watch dialog has three parts:
 
@@ -139,7 +131,7 @@ This window displays the value of all watches that you’ve defined.
 
 In this figure, when the value hit `800`, which caused VBE to enter Break mode.
 
-![Watch-window-dialog-box-with-all-watches](/assets/vba-images/Bug Finding & Debugging techniques/4. Watch window dialog box with all watches.PNG)
+![Watch-window-dialog-box-with-all-watches]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Bug_Finding_Debugging_techniques/4.WatchWindowDialogBoxWithAllWatchess.PNG)
 
 The best way to understand how this Watch business works is to use it and try various options. 
 
@@ -157,6 +149,6 @@ The nice thing about this window is that you don’t have to add a load of watch
 
 The VBE has done all the hard workfor you.
 
-![Local-window](/assets/vba-images/Bug Finding & Debugging techniques/5. Local window.PNG)
+![Local-window]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Bug_Finding_Debugging_techniques/5.LocalWindow.PNG)
 
 Next post will be about ***VBA Bug Reduction Tips***.

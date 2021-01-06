@@ -50,11 +50,11 @@ This procedure asks the user for a *number* and then displays that number’s cu
 
 Below Figures shows what happens when you execute this procedure.
 
-![VBA-InputBox-function](/assets/vba-images/VBA Sub & Function Procedure/1. VBA InputBox function.PNG)
+![VBA-InputBox-function]({{ site.url }}{{ site.baseurl }}/assets/vba-images/VBA_Sub_and_Function_Procedure/1.VBA_InputBox_function.PNG)
 
 I entered 4 as input value. And get result as shown in below image.
 
-![VBA-InputBox-result](/assets/vba-images/VBA Sub & Function Procedure/2. Displaying the cude root of a number via MsgBox.PNG)
+![VBA-InputBox-result]({{ site.url }}{{ site.baseurl }}/assets/vba-images/VBA_Sub_and_Function_Procedure/2.Displaying_the_cube_root_of_a_number_via_MsgBox.PNG)
 
 By the way, `CubeRoot` is not an example of a good macro. It doesn’t check for errors, so it fails easily. 
 

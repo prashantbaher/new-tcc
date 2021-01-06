@@ -2,14 +2,6 @@
 title: Programming Concepts, Comments and Data-types
 tags:   [VBA]
 permalink: /vba/programming-concepts/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 `Visual Basic for application` (VBA) is a real, live programming language, it uses many elements common to all programming languages. 

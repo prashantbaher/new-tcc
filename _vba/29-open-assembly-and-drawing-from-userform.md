@@ -2,14 +2,6 @@
 title:  VBA Userforms - Open new Assembly and Drawing document
 tags:   [VBA]
 permalink: /vba/open-assembly-and-drawing-from-userform/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 In this post, we learn how can we **Open new Assembly and Drawing document** from a Visual Basic for Application's **Userform**.
@@ -35,7 +27,7 @@ If you don't know how to create a new macro in Solidworks, please go to [VBA in 
 
 This will open a new macro in Visual Basic Editor with some code as shown in below image.
 
-![open-new-macro](/assets/vba-images/Open assembly and drawing from Userform/open-new-macro.png) 
+![open-new-macro]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/open-new-macro.png) 
 
 ## Insert userform in the macro
 
@@ -43,7 +35,7 @@ After this we need to insert *a userform* in our macro.
 
 For this, select the button shown in below image.
 
-![insert-userform-into-macro](/assets/vba-images/Open assembly and drawing from Userform/insert-userform-into-macro.png)
+![insert-userform-into-macro]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/insert-userform-into-macro.png)
 
 This button is called ***insert userform***. 
 
@@ -65,21 +57,21 @@ Now in our userform window, we add following controls:
 
 You can find `ComboBox` option, as highlighted in *Red Square* in below image.
 
-![insert-combox-into-userform](/assets/vba-images/Open assembly and drawing from Userform/insert-combox-into-userform.png)
+![insert-combox-into-userform]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/insert-combox-into-userform.png)
 
 After adding ComboBox, we get window as shown in below image.
 
-![combobox-into-userform](/assets/vba-images/Open assembly and drawing from Userform/combobox-into-userform.png)
+![combobox-into-userform]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/combobox-into-userform.png)
 
 ### Adding CommandButton
 
 You can find `CommandButton` option, as highlighted in *Red Square* in below image.
 
-![insert-command-button-into-userform](/assets/vba-images/Open assembly and drawing from Userform/insert-command-button-into-userform.png)
+![insert-command-button-into-userform]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/insert-command-button-into-userform.png)
 
 After adding CommandButton, we get window as shown in below image.
 
-![command-button-into-userform](/assets/vba-images/Open assembly and drawing from Userform/command-button-into-userform.png)
+![command-button-into-userform]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/command-button-into-userform.png)
 
 ## Updating Properties
 
@@ -101,7 +93,7 @@ We update following properties of the Userform:
 
 In below image, I have shown the properties of `Userform1` and update the properties:
 
-![update-userform-properties](/assets/vba-images/Open assembly and drawing from Userform/update-userform-properties.png)
+![update-userform-properties]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/update-userform-properties.png)
 
 Update the value of *Name* property from `UserForm1` to `OpenDocumentWindow`.
 
@@ -121,7 +113,7 @@ Now, we update following property of the ComboBox:
 
 In below image, I have shown the properties of `ComboBox1` and update the properties:
 
-![update-combobox-properties](/assets/vba-images/Open assembly and drawing from Userform/update-combobox-properties.png)
+![update-combobox-properties]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/update-combobox-properties.png)
 
 Update the value of *Name* property from `ComboBox1` to `DocumentTypeComboBox`.
 
@@ -137,7 +129,7 @@ Now, we update following property of the Command Button:
 
 In below image, I have shown the properties of `CommandButton1` and update the properties:
 
-![update-command-button-properties](/assets/vba-images/Open assembly and drawing from Userform/update-command-button-properties.png)
+![update-command-button-properties]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/update-command-button-properties.png)
 
 Update the value of *Name* property from `CommandButton1` to `OpenDocumentButton`.
 
@@ -193,11 +185,11 @@ For this, we need to **right click** on userform and select "**View Code**" opti
 
 Please see below image for "*how to open code window of userform*".
 
-![select-view-code-option](/assets/vba-images/Open assembly and drawing from Userform/select-view-code-option.png)
+![select-view-code-option]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/select-view-code-option.png)
 
 After selecting "**View Code**" a *Code window* appears, which is shown in below image.
 
-![behind-userform-code-window](/assets/vba-images/Open assembly and drawing from Userform/behind-userform-code-window.png)
+![behind-userform-code-window]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/behind-userform-code-window.png)
 
 Now *before* adding document list we need to understand **one important thing**!!!
 
@@ -238,11 +230,11 @@ By working correct means:
 
 For testing all the above points we need to `Run` the macro as shown in below image.
 
-![first-test-of-macro](/assets/vba-images/Open assembly and drawing from Userform/first-test-of-macro.png)
+![first-test-of-macro]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/first-test-of-macro.png)
 
 After running the window we got a window as shown in below image.
 
-![sample-userform-window](/assets/vba-images/Open assembly and drawing from Userform/sample-userform-window.png)
+![sample-userform-window]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/sample-userform-window.png)
 
 Please ***do check*** if your macro is running perfectly till now or not!
 
@@ -316,17 +308,17 @@ Dim swDoc As SldWorks.ModelDoc2
 
 Please see below image for more reference.
 
-![add-code-at-top-of-userform-codewindow](/assets/vba-images/Open assembly and drawing from Userform/add-code-at-top-of-userform-codewindow.png)
+![add-code-at-top-of-userform-codewindow]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/add-code-at-top-of-userform-codewindow.png)
 
 In **2nd part** I added `OpenDocumentButton_Click` function in the code window as shown in below image.
 
-![code-when-button-clicked](/assets/vba-images/Open assembly and drawing from Userform/code-when-button-clicked.png)
+![code-when-button-clicked]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/code-when-button-clicked.png)
 
 I have already explained code inside `OpenDocumentButton_Click` function in [Open Assembly and Drawing document](/solidworks-macro/open-assembly-and-drawing).
 
 But here, I have added a condition which is shown in Red colored box in below image.
 
-![condition-that-control-opening-document](/assets/vba-images/Open assembly and drawing from Userform/condition-that-control-opening-document.png)
+![condition-that-control-opening-document]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Open_assembly_and_drawing_from_Userform/condition-that-control-opening-document.png)
 
 Basically, this condition stated that, if we select "*Assembly Document*" in combobox, then by clicking "*Open Select Document*" button our macro open "**Assembly**" document in *Solidworks*.
 

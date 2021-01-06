@@ -2,14 +2,6 @@
 title: Visual Basic for Application Introduction
 tags:   [VBA]
 permalink: /vba/vba-Introduction/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 To understand `Visual Basic for Application`, lets look at the following *questions*.

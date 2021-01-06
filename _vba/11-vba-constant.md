@@ -2,14 +2,6 @@
 title: VBA Constants
 tags:   [VBA]
 permalink: /vba/constant/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 A variable’s value may (and usually does) change while your procedure is executing. 

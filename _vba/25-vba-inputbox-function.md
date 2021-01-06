@@ -2,14 +2,6 @@
 title: VBA InputBox Function
 tags:   [VBA]
 permalink: /vba/inputbox-function/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 The VBA's `InputBox` function is useful for obtaining a single piece of information from the user. 
@@ -81,7 +73,7 @@ Notice that this example uses only the first two arguments and does not supply a
 
 When the user enters a value and clicks `OK`, the routine assigns the value to the variable `TheName`.
 
-![A-Simple-Message-Box](/assets/vba-images/Dialog Boxes/InputBox dialog box.PNG)
+![A-Simple-Message-Box]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Dialog_Boxes/InputBoxDialogBox.PNG)
 
 Please note that VBA’s *InputBox function* always returns a `string`, so if you need to get a value, your code will need to do some additional checking. 
 

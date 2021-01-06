@@ -2,14 +2,6 @@
 title: Declaring and Scoping of Variables
 tags:   [VBA]
 permalink: /vba/declaring-and-scoping-of-variables/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 If you read the previous topics, you now know a bit about [Variables](/visual-basic/vba-variables) and [Data-types](/visual-basic/vba-programming-concepts-comments-and-datatypes). 

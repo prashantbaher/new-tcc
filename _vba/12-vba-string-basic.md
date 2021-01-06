@@ -2,12 +2,6 @@
 title: VBA String Basics
 tags:   [VBA]
 permalink: /vba/string-basic/
-read_time: true
-share: true
-related: true
-toc: true
-sidebar:
-    nav: "vba"
 ---
 
 The `String` data type represents a series of characters. This topic introduces the basic concepts of strings in Visual Basic.

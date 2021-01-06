@@ -2,14 +2,6 @@
 title: VBA Arrays
 tags:   [VBA]
 permalink: /vba/arrays/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 Most programming languages support `arrays`. An *array* is a group of variables that share a common name. 

@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>VBA Userforms - Browse SOLIDWORKS file(s) - The CAD Coder</title>
-<meta name="description" content="Content">
+<meta name="description" content="Introduction">
 
 
   <meta name="author" content="Admin">
@@ -26,7 +26,7 @@
 <meta property="og:url" content="http://localhost:4000/vba/browse-solidworks-file/">
 
 
-  <meta property="og:description" content="Content">
+  <meta property="og:description" content="Introduction">
 
 
 
@@ -34,7 +34,7 @@
 
 
 
-  <meta property="article:published_time" content="2021-01-06T04:09:01+00:00">
+  <meta property="article:published_time" content="2021-01-06T06:47:46+00:00">
 
 
 
@@ -139,7 +139,7 @@
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/vba/vba-Introduction/">VBA</a>
             </li><li class="masthead__menu-item">
-              <a href="/Solidworks-macro-guide/">Solidworks VBA Macro</a>
+              <a href="/solidworks-macros/vba-in-solidworks/">Solidworks VBA Macro</a>
             </li><li class="masthead__menu-item">
               <a href="/Solidworks-cpp-api-tutorials/">Solidworks C++ API</a>
             </li><li class="masthead__menu-item">
@@ -312,7 +312,7 @@
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="VBA Userforms - Browse SOLIDWORKS file(s)">
-    <meta itemprop="description" content="Content">
+    <meta itemprop="description" content="Introduction">
     
     
 
@@ -350,50 +350,12 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#content">Content</a></li><li><a href="#introduction">Introduction</a></li><li><a href="#creating-userform">Creating Userform</a></li><li><a href="#adding-controls-into-userform">Adding Controls into Userform</a><ul><li><a href="#adding-combobox">Adding ComboBox</a></li><li><a href="#adding-commandbutton">Adding CommandButton</a></li></ul></li><li><a href="#updating-properties">Updating Properties</a><ul><li><a href="#update-userform-properties">Update Userform Properties</a></li><li><a href="#update-textbox-properties">Update TextBox Properties</a></li><li><a href="#update-commandbutton-properties">Update CommandButton Properties</a></li></ul></li><li><a href="#call-userform-in-main-module">Call UserForm in Main Module</a></li><li><a href="#add-functionality-to-button">Add Functionality to Button</a></li><li><a href="#method-1---from-sldworks-object-directly">Method 1 - From SldWorks object directly</a><ul><li><a href="#understanding-method-1">Understanding Method 1</a></li></ul></li><li><a href="#method-2---from-microsoft-excel-externally">Method 2 - From Microsoft Excel externally</a><ul><li><a href="#understanding-method-2">Understanding Method 2</a></li></ul></li><li><a href="#final-words">Final words</a></li></ul>
+              <ul class="toc__menu"><li><a href="#introduction">Introduction</a></li><li><a href="#creating-userform">Creating Userform</a></li><li><a href="#adding-controls-into-userform">Adding Controls into Userform</a><ul><li><a href="#adding-combobox">Adding ComboBox</a></li><li><a href="#adding-commandbutton">Adding CommandButton</a></li></ul></li><li><a href="#updating-properties">Updating Properties</a><ul><li><a href="#update-userform-properties">Update Userform Properties</a></li><li><a href="#update-textbox-properties">Update TextBox Properties</a></li><li><a href="#update-commandbutton-properties">Update CommandButton Properties</a></li></ul></li><li><a href="#call-userform-in-main-module">Call UserForm in Main Module</a></li><li><a href="#add-functionality-to-button">Add Functionality to Button</a></li><li><a href="#method-1---from-sldworks-object-directly">Method 1 - From SldWorks object directly</a><ul><li><a href="#understanding-method-1">Understanding Method 1</a></li></ul></li><li><a href="#method-2---from-microsoft-excel-externally">Method 2 - From Microsoft Excel externally</a><ul><li><a href="#understanding-method-2">Understanding Method 2</a></li></ul></li><li><a href="#final-words">Final words</a></li></ul>
 
             </nav>
           </aside>
         
-        <h2 id="content">Content</h2>
-
-<p>This post is divided into below sections:</p>
-
-<ul>
-  <li>
-    <p><em><a href="#introduction">Introduction</a></em></p>
-  </li>
-  <li>
-    <p><em><a href="#creating-userform">Creating Userform</a></em></p>
-  </li>
-  <li>
-    <p><em><a href="#adding-controls-into-userform">Adding Controls into Userform</a></em></p>
-  </li>
-  <li>
-    <p><em><a href="#updating-properties">Updating Properties</a></em></p>
-  </li>
-  <li>
-    <p><em><a href="#call-userform-in-main-module">Call UserForm in Main Module</a></em></p>
-  </li>
-  <li>
-    <p><em><a href="#add-functionality-to-button">Add Functionality to Button</a></em></p>
-  </li>
-  <li>
-    <p><em><a href="#method-1---from-sldworks-object-directly">Method 1 - From <code class="language-plaintext highlighter-rouge">SldWorks</code> object directly</a></em></p>
-  </li>
-  <li>
-    <p><em><a href="#method-2---from-microsoft-excel-externally">Method 2 - From <strong>Microsoft Excel</strong> externally</a></em></p>
-  </li>
-  <li>
-    <p><em><a href="#final-words">Final words</a></em></p>
-  </li>
-</ul>
-
-<p>Feel free to select the section you want to go!</p>
-
-<hr />
-
-<h2 id="introduction">Introduction</h2>
+        <h2 id="introduction">Introduction</h2>
 
 <p>In this article, we learn <strong>how to browse SOLIDWORKS file(s)</strong> from a <strong>SOLIDWORKS VBA Userform</strong>.</p>
 
@@ -434,13 +396,13 @@ Please note that there are **no explanation** in the video.
 
 <p>This opens a <strong>Visual Basic Editor</strong> with some code as shown in below image.</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/solidworks-vba-window.png" alt="solidworks-vba-window" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/solidworks-vba-window.png" alt="solidworks-vba-window" /></p>
 
 <p>After this we need to insert <em>a userform</em> in our macro.</p>
 
 <p>For this, select the button shown in below image.</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/insert-userform-button.png" alt="insert-userform-button" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/insert-userform-button.png" alt="insert-userform-button" /></p>
 
 <p>This button is called <strong><em>insert userform</em></strong>.</p>
 
@@ -471,21 +433,21 @@ Please note that there are **no explanation** in the video.
 
 <p>You can find <code class="language-plaintext highlighter-rouge">TextBox</code> option, as highlighted in <em>Red Square</em> in below image.</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/textbox-in-userform.png" alt="textbox-in-userform" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/textbox-in-userform.png" alt="textbox-in-userform" /></p>
 
 <p>After adding ComboBox, we get window as shown in below image.</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/textbox-inside-userform.png" alt="textbox-inside-userform" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/textbox-inside-userform.png" alt="textbox-inside-userform" /></p>
 
 <h3 id="adding-commandbutton">Adding CommandButton</h3>
 
 <p>You can find <code class="language-plaintext highlighter-rouge">CommandButton</code> option, as highlighted in <em>Red Square</em> in below image.</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/insert-command-button-into-userform.png" alt="insert-command-button-into-userform" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/insert-command-button-into-userform.png" alt="insert-command-button-into-userform" /></p>
 
 <p>After adding CommandButton, we get window as shown in below image.</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/command-button-into-userform.png" alt="command-button-into-userform" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/command-button-into-userform.png" alt="command-button-into-userform" /></p>
 
 <hr />
 
@@ -520,7 +482,7 @@ Please note that there are **no explanation** in the video.
 
 <p>In below image, I have shown the properties of <code class="language-plaintext highlighter-rouge">Userform1</code> and update the properties:</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/update-userform-properties.png" alt="update-userform-properties" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/update-userform-properties.png" alt="update-userform-properties" /></p>
 
 <p>Update the value of <em>Name</em> property from <code class="language-plaintext highlighter-rouge">UserForm1</code> to <code class="language-plaintext highlighter-rouge">BrowseDocumentWindow</code>.</p>
 
@@ -548,7 +510,7 @@ Please note that there are **no explanation** in the video.
 
 <p>In below image, I have shown the properties of <code class="language-plaintext highlighter-rouge">TextBox</code> and update the properties:</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/update-textbox-properties.png" alt="update-textbox-properties" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/update-textbox-properties.png" alt="update-textbox-properties" /></p>
 
 <p>Update the value of <em>Name</em> property from <code class="language-plaintext highlighter-rouge">TextBox</code> to <code class="language-plaintext highlighter-rouge">SelectedFileTextBox</code>.</p>
 
@@ -571,7 +533,7 @@ Please note that there are **no explanation** in the video.
 
 <p>In below image, I have shown the properties of <code class="language-plaintext highlighter-rouge">CommandButton1</code> and update the properties:</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/update-command-button-properties.png" alt="update-command-button-properties" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/update-command-button-properties.png" alt="update-command-button-properties" /></p>
 
 <p>Update the value of <em>Name</em> property from <code class="language-plaintext highlighter-rouge">CommandButton1</code> to <code class="language-plaintext highlighter-rouge">BrowseDocumentButton</code>.</p>
 
@@ -754,11 +716,11 @@ Please note that there are **no explanation** in the video.
 
 <p>Below image shows our <strong>form</strong> in SOLIDWORKS.</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/userform-in-solidworks.png" alt="userform-in-solidworks" title="Our userform in Solidworks" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/userform-in-solidworks.png" alt="userform-in-solidworks" title="Our userform in Solidworks" /></p>
 
 <p>Below image shows the opened window.</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/browse-window.png" alt="browse-window" title="Browsing window" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/browse-window.png" alt="browse-window" title="Browsing window" /></p>
 
 <div class="language-vb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">' Show the selected file's full path in text box</span>
 <span class="n">SelectedFileTextBox</span><span class="p">.</span><span class="n">Text</span> <span class="o">=</span> <span class="n">fileName</span>
@@ -768,7 +730,7 @@ Please note that there are **no explanation** in the video.
 
 <p>Final window of method 1 is shown below/.</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/final-window-of-method-first.png" alt="final-window-of-method-first" title="Final window from Method 1" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/final-window-of-method-first.png" alt="final-window-of-method-first" title="Final window from Method 1" /></p>
 
 <hr />
 
@@ -795,19 +757,19 @@ Please note that there are **no explanation** in the video.
   <li>Select reference option as shown in below image.</li>
 </ol>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/select-reference-option.png" alt="select-reference-option" title="Select reference option from Tools options" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/select-reference-option.png" alt="select-reference-option" title="Select reference option from Tools options" /></p>
 
 <ol>
   <li>This open Reference window as shown in below image.</li>
 </ol>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/reference-window.png" alt="reference-window" title="Reference window" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/reference-window.png" alt="reference-window" title="Reference window" /></p>
 
 <ol>
   <li>Now select option given in below images and Press OK after selecting files..</li>
 </ol>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/add-excel-reference.png" alt="add-excel-reference" title="Select reference file highlighted in red box" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/add-excel-reference.png" alt="add-excel-reference" title="Select reference file highlighted in red box" /></p>
 
 <p>Now, replace code in <em><a href="#add-functionality-to-button">Add Functionality to Button</a></em> with below code sample.</p>
 
@@ -942,15 +904,15 @@ Please note that there are **no explanation** in the video.
 
 <p>Below image shows our <strong>form</strong> in SOLIDWORKS.</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/userform-in-solidworks.png" alt="userform-in-solidworks" title="Our userform in Solidworks" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/userform-in-solidworks.png" alt="userform-in-solidworks" title="Our userform in Solidworks" /></p>
 
 <p>Below image shows the opened window.</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/excel-browse-window.png" alt="excel-browse-window" title="Browsing window using MS Excel" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/excel-browse-window.png" alt="excel-browse-window" title="Browsing window using MS Excel" /></p>
 
 <p>Below image shows the <strong>multi-selection</strong> in opened window.</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/multiple-select-window.png" alt="multiple-select-window" title="Multilpe file selection in Browsing window using MS Excel" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/multiple-select-window.png" alt="multiple-select-window" title="Multilpe file selection in Browsing window using MS Excel" /></p>
 
 <div class="language-vb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">' Show the selected file's full path in text box</span>
 <span class="n">SelectedFileTextBox</span><span class="p">.</span><span class="n">Text</span> <span class="o">=</span> <span class="n">fileName</span>
@@ -960,7 +922,7 @@ Please note that there are **no explanation** in the video.
 
 <p>Final window of method 1 is shown below/.</p>
 
-<p><img src="/assets/vba-images/browse-solidworks-files/final-window-of-method-first.png" alt="final-window-of-method-second" title="Final window from Method 2" /></p>
+<p><img src="http://localhost:4000/assets/vba-images/browse-solidworks-files/final-window-of-method-first.png" alt="final-window-of-method-second" title="Final window from Method 2" /></p>
 
 <p><em>Final window of both method is same.</em></p>
 
@@ -1097,6 +1059,10 @@ Please note that there are **no explanation** in the video.
       
         
           <li><a href="https://www.youtube.com/channel/UCm_VglqA2S4WUXM55vyqAFg" rel="nofollow noopener noreferrer"><i class="fab fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+        
+      
+        
+          <li><a href="mailto:thecadcoder@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
         
       
     

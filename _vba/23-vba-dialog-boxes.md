@@ -2,14 +2,6 @@
 title: VBA Dialog Boxes
 tags:   [VBA]
 permalink: /vba/dialog-boxes/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 You can’t use VBA very long without being exposed to dialog boxes. 

@@ -2,14 +2,6 @@
 title: Public, Static and Variable's Life
 tags:   [VBA]
 permalink: /vba/publc-static-variable-life/
-author_profile: false
-read_time: true
-share: true
-related: true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: "vba"
 ---
 
 In the following sections we will discussed about following topics: 

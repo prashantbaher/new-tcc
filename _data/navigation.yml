@@ -62,6 +62,21 @@ vba:
         url: /vba/string-basic/
       - title: "VBA Assignment Statements And Operators"
         url: /vba/assignment-statement-and-operator/
+      - title: "VBA Arrays"
+        url: /vba/arrays/
+      - title: "VBA Functions"
+        url: /vba/functions/
+      - title: "VBA Functions that do more"
+        url: /vba/more-functions/
+      - title: "VBA Controlling Program Flow and Making Decisions"
+        url: /vba/controlling-flow-making-desicions/
+      - title: "VBA If-Then-Else and Select Case structure"
+        url: /vba/if-then-structure-select-case/
+      - title: "VBA Looping"
+        url: /vba/looping/
+
+
+
 
 
 

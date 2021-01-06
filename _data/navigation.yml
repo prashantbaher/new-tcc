@@ -1,9 +1,29 @@
+# example navigation
+foo:
+  - title: "Parent Link 1"
+    url: /parent-1-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+  - title: "Parent Link 2"
+    url: /parent-2-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+      - title: "Child Link 3"
+        url: /child-3-page-url/
+
+
 # main links
 main:
-  #- title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+#  - title: "Quick-Start Guide"
+#   url: /docs/quick-start-guide/
   - title: "VBA"
-    url: /VBA-guide/
+    url: /vba/vba-Introduction/   
   - title: "Solidworks VBA Macro"
     url: /Solidworks-macro-guide/
   - title: "Solidworks C++ API"
@@ -17,4 +37,18 @@ vba:
   - title: Getting Started
     children:
       - title: "VBA Introduction"
-        url: /Visual-Basic/vba-introduction/
+        url: /vba/vba-Introduction/
+      - title: "VBA Visual Basic Editor"
+        url: /vba/vba-vbe-editor/        
+
+solidworks-cpp:
+  - title: Getting Started
+    children:
+      - title: "Introduction"
+        url: /Solidworks-cpp-api-tutorials/
+      - title: "Prerequisite"
+        url: /solidworks-cpp/Prerequisite/
+      - title: "Open Solidworks & Hello World"
+        url: /solidworks-cpp/open-solidworks/ 
+      - title: "Open Solidworks Part Document"
+        url: /solidworks-cpp/open-part-document/ 

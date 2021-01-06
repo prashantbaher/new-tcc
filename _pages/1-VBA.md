@@ -2,6 +2,7 @@
 title: VBA 
 permalink: /VBA-guide/
 toc: true
+toc_sticky: true
 excerpt: "This page is about VBA and its related pages"
 sidebar:
   nav: "vba"
@@ -16,9 +17,9 @@ If you are **a total beginner** let us say *CAD engineer*, then follow the list 
 
 ## Visual Basic for Application and Visual Basic Editor
 
-* [Visual Basic for Application Introduction](/vba/vba-introduction)
+* [Visual Basic for Application Introduction](/vba/vba-Introduction/)
 
-* [Visual Basic Editor (VBE)](/visual-basic/vbe-editor)
+* [Visual Basic Editor (VBE)](/vba/vba-string-basic/)
 
 * [Visual Basic Editor Windows](/visual-basic/vbe-windows)
 

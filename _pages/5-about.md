@@ -9,17 +9,9 @@ Hello,
 
 You come here it means you want to know about this blog more and the person who is sharing this knowledge. 
  
-For organization purpose I have divided this page into the following parts
- 
-1. Introduction
+For organization purpose I have divided this page into the parts.
 
-2. Why did I learn to programme?
-
-3. How did I learn to programme?
-
-4. Purpose of this Blog
-
-Feel free to jump to the topic you want to read from above topics.
+Feel free to jump to the topic you want to read.
 
 ---
 

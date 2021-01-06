@@ -42,12 +42,29 @@ vba:
         url: /vba/vba-vbe-editor/    
       - title: "VBE Windows"
         url: /vba/vba-windows/ 
-      - title: "VBE Sub and Function Procedures"
+      - title: "VBA Sub and Function Procedures"
         url: /vba/sub-and-function-procedure/  
-      - title: "VBE Executing Sub and Function Procedures"
+      - title: "VBA Executing Sub and Function Procedures"
         url: /vba/executing-procedures/
-      - title: "VBE Programming Concepts, Comments and Data-types"
+      - title: "VBA Programming Concepts, Comments and Data-types"
         url: /vba/programming-concepts/ 
+      - title: "VBA Variables"
+        url: /vba/variables/ 
+      - title: "VBA Declaring and Scoping of Variables"
+        url: /vba/declaring-and-scoping-of-variables/ 
+      - title: "VBA Variable Scope"
+        url: /vba/variable-scope/ 
+      - title: "VBA Public, Static and Variable's Life"
+        url: /vba/publc-static-variable-life/ 
+      - title: "VBA Constants"
+        url: /vba/constant/ 
+      - title: "VBA String Basics"
+        url: /vba/string-basic/
+      - title: "VBA Assignment Statements And Operators"
+        url: /vba/assignment-statement-and-operator/
+
+
+
 
 solidworks-cpp:
   - title: Getting Started

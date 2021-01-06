@@ -1,7 +1,7 @@
 ---
 title: VBA String Basics
 tags:   [VBA]
-permalink: /vba/vba-string-basic/
+permalink: /vba/string-basic/
 read_time: true
 share: true
 related: true

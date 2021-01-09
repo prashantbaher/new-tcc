@@ -10,7 +10,7 @@ VBA provides various looping command for repeating code to make correct decision
 
 We will go through them in following topics: 
 
-# For -Next Loop
+## For -Next Loop
 
 The simplest type of loop is a `For-Next` loop. Here’s the syntax for this structure:
 
@@ -87,7 +87,7 @@ End Sub
 
 This routine performs the as earlier but when the variable i reached to 5, it shows a message, stating that this is a mid value and exit from loop. 
 
-# Do-While Loop
+## Do-While Loop
 
 VBA supports another type of looping structure known as a `Do-While` loop. 
 
@@ -144,7 +144,7 @@ Thus, the loop instructions are always executed at least once, regardless of the
 
 This difference can sometimes have a big effect on how your program functions. 
 
-# Do-Until Loop
+## Do-Until Loop
 
 The `Do-Until` loop structure is similar to the `Do-While` structure. 
 
@@ -204,7 +204,7 @@ Another way to think about it is like this: The `Do-While` loop keeps looping as
 
 The `Do-Until` loop keeps looping as long as the condition is False. 
 
-# Looping through a Collection
+## Looping through a Collection
 
 VBA supports yet another type of looping — looping through each object in a **collection** of objects. 
 

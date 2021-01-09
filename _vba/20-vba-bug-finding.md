@@ -62,7 +62,7 @@ Because any changes made by your VBA code cannot be undone, it is always a good 
 
 I usually copy some files into a temporary folder and use those files for my testing. 
 
-# Debugging Techniques
+## Debugging Techniques
 
 In this section, I discuss the some of the most common methods for debugging VBA code: 
 
@@ -70,7 +70,7 @@ In this section, I discuss the some of the most common methods for debugging VBA
 * Inserting `MsgBox` functions at various locations in your code
 * Inserting `Debug.Print` statement
 
-## Examine your code
+### Examine your code
 
 Perhaps the most straightforward debugging technique is simply taking a close look at your code to see whether you can find the problem. 
 
@@ -82,7 +82,7 @@ At times like that, you are lucky if you can even see your code.
 
 Thus, don’t be surprised if simply examining your code isn’t enough to make you find and expunge all the bugs it contains. 
 
-## Using the MsgBox function
+### Using the MsgBox function
 
 A common problem in many programs involves one or more variables not taking on the values you expect. 
 
@@ -98,7 +98,7 @@ Feel free to use `MsgBox` functions frequently when you debug your code.
 
 Just make sure that you remove them after you identify and correct the problem.
 
-## Inserting Debug.Print Statement
+### Inserting Debug.Print Statement
 
 As an alternative to using `MsgBox` functions in your code, you can insert one or more temporary `Debug.Print` statements. 
 

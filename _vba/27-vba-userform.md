@@ -48,7 +48,7 @@ To insert a UserForm object with the following steps:
 
   * From "Menu Bar" -> "UserForm"
 
-  * From “Standard Toolbar” by clicking “Insert UserForm” ![A-new-userform-object]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Userforms/3. Insert userform button in standard toolbar.PNG)
+  * From “Standard Toolbar” by clicking “Insert UserForm” ![A-new-userform-object]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Userforms/3.InsertUserformButtoninstandardToolbar.PNG)
 
   The VBE insert a new UserForm object with an empty dialog box.
 

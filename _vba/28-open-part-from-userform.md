@@ -23,7 +23,7 @@ Please note that there are **no explaination** in the video.
 
 1st we need to create a **new macro** in *Solidworks 3D CAD Software*.
 
-If you don't know how to create a new macro in Solidworks, please go to [VBA in Solidworks](/solidworks-macro/vba-in-solidworks) post for this.
+If you don't know how to create a new macro in Solidworks, please go to [VBA in Solidworks](/solidworks-macros/vba-in-solidworks) post for this.
 
 This will open a new macro in Visual Basic Editor with some code as shown in below image.
 
@@ -172,7 +172,7 @@ When the window appears on screen, we hit the button.
 
 After hitting the button, the code behind the userform run, which opens a new Part document.
 
-If you want to know more about how we open new part with macro please see [Open new Part document](/solidworks-macro/open-new-document).
+If you want to know more about how we open new part with macro please see [Open new Part document](/solidworks-macros/open-new-document/).
 
 That's it for now.
 

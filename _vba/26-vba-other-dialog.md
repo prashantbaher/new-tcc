@@ -156,7 +156,7 @@ If the user clicks `Cancel`, that variable contains a Boolean value (False).
 
 Otherwise, FileName is a `string`. Therefore, using a Variant data type handles both possibilities.
 
-# GetSaveAsFilename Method
+## GetSaveAsFilename Method
 
 The *GetSaveAsFilename* method works just like the *GetOpenFilename* method, but it displays the Save As dialog box rather than its Open dialog box. 
 
@@ -216,7 +216,7 @@ The *GetSaveAsFilename* method takes below arguments, all of which are optional.
 |FilterIndex|Determines which of the file filters the dialog box displays by default.|
 |Title|Specifies the caption for the dialog box’s title bar.|
 
-# Getting a Folder Name
+## Getting a Folder Name
 
 Sometimes, you don’t need to get a filename; you just need to get a folder name. 
 

@@ -98,7 +98,125 @@ solidworks-cpp:
         url: /solidworks-cpp/open-part-document/
 
 solidworks-macros:
-  - title: General
+  - title: General - Solidworks Functions
     children:
       - title: "Introduction"
         url: /solidworks-macros/vba-in-solidworks/
+      - title: "Open new Part document"
+        url: /solidworks-macros/open-new-document/
+      - title: "Open Assembly and Drawing document"
+        url: /solidworks-macros/open-assembly-and-drawing/
+      - title: "Selection Methods"
+        url: /solidworks-macros/select-plane-from-tree/
+      - title: "Open Saved Documents"
+        url: /solidworks-macros/open-saved-document/
+      - title: "Fix Unit Issue"
+        url: /solidworks-macros/unit-correction/
+  - title: Sketch - Lines
+    children:
+      - title: "Create Line"
+        url: /solidworks-macros/sketch-create-line/
+      - title: "Create CenterLine"
+        url: /solidworks-macros/sketch-create-centerline/
+  - title: Sketch - Rectangles
+    children:
+      - title: "Create Corner Rectangle"
+        url: /solidworks-macros/create-corner-rectangle/
+      - title: "Create Center Rectangle"
+        url: /solidworks-macros/create-center-rectangle/
+      - title: "Create 3-Point Corner Rectangle"
+        url: /solidworks-macros/create-3point-corner-rectangle/
+      - title: "Create 3-Point Center Rectangle"
+        url: /solidworks-macros/create-3point-center-rectangle/
+      - title: "Create A Parallelogram"
+        url: /solidworks-macros/create-parallelogram/
+  - title: Sketch - Circles
+    children:
+      - title: "Create Circle"
+        url: /solidworks-macros/create-circle/
+      - title: "Create Circle By Radius"
+        url: /solidworks-macros/create-circle-by-radius/
+      - title: "Create Perimeter Circle"
+        url: /solidworks-macros/create-perimeter-circle/
+  - title: Sketch - Arcs
+    children:
+      - title: "Create Centerpoint Arc"
+        url: /solidworks-macros/create-centerpoint-arc/
+      - title: "Create Tangent Arc"
+        url: /solidworks-macros/create-tangent-arc/
+      - title: "Create 3-Point Arc"
+        url: /solidworks-macros/create-3point-arc/       
+      - title: "Create Polygon"
+        url: /solidworks-macros/polygon/   
+  - title: Sketch - Slots
+    children:
+      - title: "Create a Straight Slot"
+        url: /solidworks-macros/create-straight-slot/
+      - title: "Create a Centerpoint Straight Slot"
+        url: /solidworks-macros/create-centerpoint-straight-slot/
+      - title: "Create a 3-Point Arc Slot"
+        url: /solidworks-macros/create-3point-arc-slot/
+      - title: "Create a Centerpoint Arc Slot"
+        url: /solidworks-macros/create-centerpoint-arc-slot/
+  - title: Sketch - Point and Spline
+    children:
+      - title: "Create a Point"
+        url: /solidworks-macros/create-point/
+      - title: "Create a Spline"
+        url: /solidworks-macros/create-spline/
+  - title: Sketch - Fillet and Chamfer
+    children:
+      - title: "Create a Fillet"
+        url: /solidworks-macros/create-fillet/
+      - title: "Create a Chamfer"
+        url: /solidworks-macros/create-chamfer/    
+  - title: Sketch - Trim and Extend
+    children:
+      - title: "Trim Sketch Entities"
+        url: /solidworks-macros/trim-entities/
+      - title: "Extend Sketch Entities"
+        url: /solidworks-macros/extend-entities/
+  - title: Sketch - Offset and Mirror
+    children:
+      - title: "Offset Sketch Entities"
+        url: /solidworks-macros/offset-entities/
+      - title: "Mirror Sketch Entities"
+        url: /solidworks-macros/mirror-entities/
+  - title: Sketch - Offset and Mirror
+    children:
+      - title: "Offset Sketch Entities"
+        url: /solidworks-macros/offset-entities/
+      - title: "Mirror Sketch Entities"
+        url: /solidworks-macros/mirror-entities/
+  - title: Sketch - Patterns
+    children:
+      - title: "Linear Sketch Pattern"
+        url: /solidworks-macros/linear-skech-pattern/
+      - title: "Edit Linear Sketch Pattern"
+        url: /solidworks-macros/edit-linear-skech-pattern/ 
+      - title: "Circular Sketch Pattern"
+        url: /solidworks-macros/circular-skech-pattern/
+      - title: "Edit Circular Sketch Pattern"
+        url: /solidworks-macros/edit-circular-skech-pattern/
+  - title: Sketch - Move and Rotate
+    children:
+      - title: "Move/Copy Sketch Entities"
+        url: /solidworks-macros/move-copy-sketch-entities/
+      - title: "Rotate/Copy Sketch Entities"
+        url: /solidworks-macros/rotate-copy-sketch-entities/    
+  - title: Sketch - Relations
+    children:
+      - title: "Toggle (Hide/Show) Sketch Relations"
+        url: /solidworks-macros/toggle-display-sketch-relation/
+      - title: "Add Sketch Relations (Constraints)"
+        url: /solidworks-macros/add-sketch-relations/                       
+  - title: Sketch - Dimensions
+    children:
+      - title: "Add dimension to Sketch Entities"
+        url: /solidworks-macros/add-dimension-methods/
+  - title: Sketch - Others
+    children:
+      - title: "Convert to Construction Sketch"
+        url: /solidworks-macros/convert-to-construction-sketch-segment/
+      - title: "Split Open/Closed Sketch Entities"
+        url: /solidworks-macros/split-sketch-segments/

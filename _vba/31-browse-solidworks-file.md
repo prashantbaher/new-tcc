@@ -36,7 +36,7 @@ Please note that there are **no explanation** in the video.
 
 1st we need to create a **new macro** in *SOLIDWORKS*.
 
-If you don't know how to create a new macro in Solidworks, please go to **[VBA in Solidworks](/solidworks-macro/vba-in-solidworks)** post for this.
+If you don't know how to create a new macro in Solidworks, please go to **[VBA in Solidworks](/solidworks-macros/vba-in-solidworks)** post for this.
 
 This opens a **Visual Basic Editor** with some code as shown in below image.
 
@@ -255,7 +255,7 @@ Option Explicit
 
 This line forces us to define every variable we are going to use. 
 
-For more information please visit **[Solidworks Macros - Open new Part document](/solidworks-macro/open-new-document)** post.
+For more information please visit **[Solidworks Macros - Open new Part document](/solidworks-macros/open-new-document)** post.
 
 ```vb
 ' Create variable for Solidworks application
@@ -426,7 +426,7 @@ Option Explicit
 
 This line forces us to define every variable we are going to use. 
 
-For more information please visit **[Solidworks Macros - Open new Part document](/solidworks-macro/open-new-document)** post.
+For more information please visit **[Solidworks Macros - Open new Part document](/solidworks-macros/open-new-document)** post.
 
 Next is our button click event `BrowseDocumentButton_Click` procedure.
 

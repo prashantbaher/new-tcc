@@ -7,7 +7,7 @@ header:
   #overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
     - label: "Get Started"
-      url: "/docs/quick-start-guide/"
+      url: "/solidworks-macros/vba-in-solidworks/"
 excerpt: >
   Free <strong>SOLIDWORKS API [VBA + C#]</strong> Tutorials for Mechanical Engineers.
 feature_row:

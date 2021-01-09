@@ -39,7 +39,7 @@ If you don't want to spend money to buy this book then it is ok!!
 
 Not everyone learns by reading a book. 
 
-You can read [VBA tutorials](/VBA-guide/) from this blog. 
+You can read [VBA tutorials](/vba/vba-Introduction/) from this blog. 
 
 ---
 
@@ -49,9 +49,9 @@ I learn **Solidworks VBA macro** from **[Me in 3d](https://youtu.be/Pp0Kc89g7mE)
 
 You can watch those videos by clicking above text link. 
 
-I am also giving tutorials on **[Solidworks VBA macros](/Solidworks-macros-guide/)** in this blog. 
+I am also giving tutorials on **[Solidworks VBA macros](/solidworks-macros/vba-in-solidworks/)** in this blog. 
 
-You can go to **[Solidworks VBA macros](/Solidworks-macros-guide/)** page of this blog and look for the articles I wrote till now. 
+You can go to **[Solidworks VBA macros](/solidworks-macros/vba-in-solidworks/)** page of this blog and look for the articles I wrote till now. 
 
 *This is why this blog exists!!!*
 

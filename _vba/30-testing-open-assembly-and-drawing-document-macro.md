@@ -8,11 +8,11 @@ permalink: /vba/testing-open-assembly-and-drawing-document-macro/
 
 In this post, we **test** our **Open new Assembly and Drawing document** code sample.
 
-This post is supplement of **[VBA Userforms - Open new Assembly and Drawing document](/visual-basic/open-assembly-and-drawing-from-userform)** post.
+This post is supplement of **[VBA Userforms - Open new Assembly and Drawing document](/vba/open-assembly-and-drawing-from-userform/)** post.
 
 > *Please visit above post before this post.*
 
-From **[VBA Userforms - Open new Assembly and Drawing document](/visual-basic/open-assembly-and-drawing-from-userform)** post we expect following results :
+From **[VBA Userforms - Open new Assembly and Drawing document](/vba/open-assembly-and-drawing-from-userform/)** post we expect following results :
 
 1. **Open Assembly** document when we select "*Assembly document*".
 

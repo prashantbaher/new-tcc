@@ -34,7 +34,7 @@
 
 
 
-  <meta property="article:published_time" content="2021-01-06T06:47:46+00:00">
+  <meta property="article:published_time" content="2021-01-09T08:33:02+00:00">
 
 
 
@@ -350,7 +350,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#types-of-bugs">Types of Bugs</a></li><li><a href="#identifying-bugs">Identifying Bugs</a></li><li><a href="#examine-your-code">Examine your code</a></li><li><a href="#using-the-msgbox-function">Using the MsgBox function</a></li><li><a href="#inserting-debugprint-statement">Inserting Debug.Print Statement</a></li></ul>
+              <ul class="toc__menu"><li><a href="#types-of-bugs">Types of Bugs</a></li><li><a href="#identifying-bugs">Identifying Bugs</a></li><li><a href="#debugging-techniques">Debugging Techniques</a><ul><li><a href="#examine-your-code">Examine your code</a></li><li><a href="#using-the-msgbox-function">Using the MsgBox function</a></li><li><a href="#inserting-debugprint-statement">Inserting Debug.Print Statement</a></li></ul></li></ul>
 
             </nav>
           </aside>
@@ -420,7 +420,7 @@
 
 <p>I usually copy some files into a temporary folder and use those files for my testing.</p>
 
-<h1 id="debugging-techniques">Debugging Techniques</h1>
+<h2 id="debugging-techniques">Debugging Techniques</h2>
 
 <p>In this section, I discuss the some of the most common methods for debugging VBA code:</p>
 
@@ -430,7 +430,7 @@
   <li>Inserting <code class="language-plaintext highlighter-rouge">Debug.Print</code> statement</li>
 </ul>
 
-<h2 id="examine-your-code">Examine your code</h2>
+<h3 id="examine-your-code">Examine your code</h3>
 
 <p>Perhaps the most straightforward debugging technique is simply taking a close look at your code to see whether you can find the problem.</p>
 
@@ -442,7 +442,7 @@
 
 <p>Thus, don’t be surprised if simply examining your code isn’t enough to make you find and expunge all the bugs it contains.</p>
 
-<h2 id="using-the-msgbox-function">Using the MsgBox function</h2>
+<h3 id="using-the-msgbox-function">Using the MsgBox function</h3>
 
 <p>A common problem in many programs involves one or more variables not taking on the values you expect.</p>
 
@@ -458,7 +458,7 @@
 
 <p>Just make sure that you remove them after you identify and correct the problem.</p>
 
-<h2 id="inserting-debugprint-statement">Inserting Debug.Print Statement</h2>
+<h3 id="inserting-debugprint-statement">Inserting Debug.Print Statement</h3>
 
 <p>As an alternative to using <code class="language-plaintext highlighter-rouge">MsgBox</code> functions in your code, you can insert one or more temporary <code class="language-plaintext highlighter-rouge">Debug.Print</code> statements.</p>
 

@@ -131,7 +131,7 @@ This window displays the value of all watches that you’ve defined.
 
 In this figure, when the value hit `800`, which caused VBE to enter Break mode.
 
-![Watch-window-dialog-box-with-all-watches]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Bug_Finding_Debugging_techniques/4.WatchWindowDialogBoxWithAllWatchess.PNG)
+![Watch-window-dialog-box-with-all-watches]({{ site.url }}{{ site.baseurl }}/assets/vba-images/Bug_Finding_Debugging_techniques/4.WatchWindowDialogBoxWithAllWatches.PNG)
 
 The best way to understand how this Watch business works is to use it and try various options. 
 

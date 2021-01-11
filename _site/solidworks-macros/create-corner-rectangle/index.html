@@ -34,7 +34,7 @@
 
 
 
-  <meta property="article:published_time" content="2021-01-09T08:33:02+00:00">
+  <meta property="article:published_time" content="2021-01-11T14:29:04+00:00">
 
 
 
@@ -529,7 +529,7 @@
         
         <p>In this post, I tell you about <em>how to create Corner Rectangle through Solidworks VBA Macros</em> in a sketch.</p>
 
-<p>For this, I take the example from previous <a href="/solidworks-macro/sketch-create-line">Sketch - Create Lines</a> post.</p>
+<p>For this, I take the example from previous <strong><a href="/solidworks-macros/sketch-create-line">Sketch - Create Lines</a></strong> post.</p>
 
 <p>In this post, I tell you about <code class="language-plaintext highlighter-rouge">CreateCornerRectangle</code> method from <strong>Solidworks</strong> <code class="language-plaintext highlighter-rouge">SketchManager</code> object.</p>
 
@@ -616,7 +616,7 @@
 
 <p>This line forces us to define every variable we are going to use.</p>
 
-<p>For more information please visit <a href="/solidworks-macro/open-new-document">Solidworks Macros - Open new Part document</a> post.</p>
+<p>For more information please visit <strong><a href="/solidworks-macros/open-new-document">Solidworks Macros - Open new Part document</a></strong> post.</p>
 
 <div class="language-vb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">' Creating variable for Solidworks application</span>
 <span class="k">Dim</span> <span class="nv">swApp</span> <span class="ow">As</span> <span class="n">SldWorks</span><span class="p">.</span><span class="n">SldWorks</span>
@@ -658,7 +658,7 @@
 
 <p>In this line, we set the value of our <code class="language-plaintext highlighter-rouge">swDoc</code> variable to new document.</p>
 
-<p>For <strong>detailed information</strong> about these lines please visit <a href="/solidworks-macro/open-new-document">Solidworks Macros - Open new Part document</a> post.</p>
+<p>For <strong>detailed information</strong> about these lines please visit <strong><a href="/solidworks-macros/open-new-document">Solidworks Macros - Open new Part document</a></strong> post.</p>
 
 <div class="language-vb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">' Boolean Variable</span>
 <span class="k">Dim</span> <span class="nv">BoolStatus</span> <span class="ow">As</span> <span class="kt">Boolean</span>
@@ -671,7 +671,7 @@
 
 <p>In next line, we select the <em>front plane</em> by using <code class="language-plaintext highlighter-rouge">SelectByID2</code> method from <code class="language-plaintext highlighter-rouge">Extension</code> object.</p>
 
-<p>For more information about selection method please visit <a href="/solidworks-macro/select-plane-from-tree">Solidworks Macros - Selection Methods</a> post.</p>
+<p>For more information about selection method please visit <strong><a href="/solidworks-macros/select-plane-from-tree">Solidworks Macros - Selection Methods</a></strong> post.</p>
 
 <div class="language-vb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">' Creating variable for Solidworks Sketch Manager</span>
 <span class="k">Dim</span> <span class="nv">swSketchManager</span> <span class="ow">As</span> <span class="n">SldWorks</span><span class="p">.</span><span class="n">SketchManager</span>
@@ -681,7 +681,7 @@
 
 <p>As the name suggested, a Sketch Manager holds variours methods and properties to manage Sketches.</p>
 
-<p>To see methods and properties related to SketchManager object, please visit <a href="help.solidworks.com/2017/english/api/sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html">this page</a></p>
+<p>To see methods and properties related to SketchManager object, please visit <strong><a href="https://help.solidworks.com/2017/english/api/sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html">this page of Solidworks API help</a></strong></p>
 
 <div class="language-vb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">' Setting Sketch manager for our sketch</span>
 <span class="k">Set</span> <span class="n">swSketchManager</span> <span class="o">=</span> <span class="n">swDoc</span><span class="p">.</span><span class="n">SketchManager</span>
@@ -716,17 +716,26 @@
 
 <p>This <code class="language-plaintext highlighter-rouge">CreateCornerRectangle</code> method takes following parameters as explained:</p>
 
-<p><em>X1</em> : X coordinate of the Upper-left point</p>
-
-<p><em>Y1</em> : Y coordinate of the Upper-left point</p>
-
-<p><em>Z1</em> : Z coordinate of the Upper-left point</p>
-
-<p><em>X2</em> : X coordinate of the Lower-right point</p>
-
-<p><em>Y2</em> : Y coordinate of the Lower-right point</p>
-
-<p><em>Z2</em> : Z coordinate of the Lower-right point</p>
+<ul>
+  <li>
+    <p><em>X1</em> : X coordinate of the Upper-left point</p>
+  </li>
+  <li>
+    <p><em>Y1</em> : Y coordinate of the Upper-left point</p>
+  </li>
+  <li>
+    <p><em>Z1</em> : Z coordinate of the Upper-left point</p>
+  </li>
+  <li>
+    <p><em>X2</em> : X coordinate of the Lower-right point</p>
+  </li>
+  <li>
+    <p><em>Y2</em> : Y coordinate of the Lower-right point</p>
+  </li>
+  <li>
+    <p><em>Z2</em> : Z coordinate of the Lower-right point</p>
+  </li>
+</ul>
 
 <p>Below image shows more clearly about these parameters.</p>
 

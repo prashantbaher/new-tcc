@@ -34,7 +34,7 @@
 
 
 
-  <meta property="article:published_time" content="2021-01-09T08:33:02+00:00">
+  <meta property="article:published_time" content="2021-01-11T14:29:04+00:00">
 
 
 
@@ -604,17 +604,27 @@
 
 <p><code class="language-plaintext highlighter-rouge">SelectByID</code> takes following parameters:</p>
 
-<p><em>Name</em> : Name of the object or an empty string</p>
+<ul>
+  <li>
+    <p><em>Name</em> : Name of the object or an empty string</p>
+  </li>
+  <li>
+    <p><em>Type</em> : Type of object in uppercase or an empty string</p>
+  </li>
+  <li>
+    <p><em>X</em> : X selection location</p>
+  </li>
+  <li>
+    <p><em>Y</em> : Y selection location</p>
+  </li>
+  <li>
+    <p><em>Z</em> : Z selection location</p>
+  </li>
+</ul>
 
-<p><em>Type</em> : Type of object in uppercase or an empty string</p>
+<p><strong>Return Value</strong> -</p>
 
-<p><em>X</em> : X selection location</p>
-
-<p><em>Y</em> : Y selection location</p>
-
-<p><em>Z</em> : Z selection location</p>
-
-<p><strong>Return Value</strong> - If the item is select then this method returns <code class="language-plaintext highlighter-rouge">True</code> and otherwise <code class="language-plaintext highlighter-rouge">False</code>.</p>
+<p>If the item is select then this method returns <code class="language-plaintext highlighter-rouge">True</code> and otherwise <code class="language-plaintext highlighter-rouge">False</code>.</p>
 
 <p>Since this method returns <code class="language-plaintext highlighter-rouge">True</code> or <code class="language-plaintext highlighter-rouge">False</code>, hence we use a <code class="language-plaintext highlighter-rouge">boolean</code> variable to perfom this method.</p>
 
@@ -652,13 +662,15 @@
 <span class="k">End</span> <span class="k">Sub</span>
 </code></pre></div></div>
 
-<p>Most of the things in this code sample is already explained <a href="/solidworks-macro/open-new-document">this post</a> and in previous section of this very post.</p>
+<p>Most of the things in this code sample is already explained <strong><a href="/solidworks-macros/open-new-document">previous post</a></strong> and in previous section of this very post.</p>
 
 <p>In this code I have set the <em>Solidworks document variable</em> <code class="language-plaintext highlighter-rouge">swDoc</code> to active open document.</p>
 
 <p>And then we use similar method to select <strong>“Front Plane”</strong>.</p>
 
 <p>As explained in previous section we can select <strong>Right Plane</strong> and <strong>Top Plane</strong>.</p>
+
+<hr />
 
 <h2 id="by-selectbyid2-method-from-imodeldocextension-interface">By <strong>SelectByID2</strong> method From <strong>IModelDocExtension</strong> Interface</h2>
 
@@ -728,25 +740,39 @@
 
 <p>Below I have explained about the input parameters of <code class="language-plaintext highlighter-rouge">SelectByID2</code> method:</p>
 
-<p><em>Name</em> : Name of the object or an empty string</p>
+<ul>
+  <li>
+    <p><em>Name</em> : Name of the object or an empty string</p>
+  </li>
+  <li>
+    <p><em>Type</em> : Type of object in uppercase or an empty string</p>
+  </li>
+  <li>
+    <p><em>X</em> : X selection location</p>
+  </li>
+  <li>
+    <p><em>Y</em> : Y selection location</p>
+  </li>
+  <li>
+    <p><em>Z</em> : Z selection location</p>
+  </li>
+  <li>
+    <p><em>Append</em> : <code class="language-plaintext highlighter-rouge">True</code> or <code class="language-plaintext highlighter-rouge">False</code>. It is used the adding the selection into selection list.</p>
+  </li>
+  <li>
+    <p><em>Mark</em> : Value you want to use as a Mark; this value is used by other functions that require ordered selection.</p>
+  </li>
+  <li>
+    <p><em>Callout</em> : Pointer to the <code class="language-plaintext highlighter-rouge">Callout</code> interface/object. (Default value most of the time is <code class="language-plaintext highlighter-rouge">nothing</code>.)</p>
+  </li>
+  <li>
+    <p><em>SelectOption</em> : Selection option. You can use either <code class="language-plaintext highlighter-rouge">swSelectOptionDefault</code> or <code class="language-plaintext highlighter-rouge">swSelectOptionExtensive</code> value.</p>
+  </li>
+</ul>
 
-<p><em>Type</em> : Type of object in uppercase or an empty string</p>
+<p><strong>Return Value</strong> -</p>
 
-<p><em>X</em> : X selection location</p>
-
-<p><em>Y</em> : Y selection location</p>
-
-<p><em>Z</em> : Z selection location</p>
-
-<p><em>Append</em> : <code class="language-plaintext highlighter-rouge">True</code> or <code class="language-plaintext highlighter-rouge">False</code>. It is used the adding the selection into selection list.</p>
-
-<p><em>Mark</em> : Value you want to use as a Mark; this value is used by other functions that require ordered selection.</p>
-
-<p>*Callout * : Pointer to the <code class="language-plaintext highlighter-rouge">Callout</code> interface/object. (Default value most of the time is <code class="language-plaintext highlighter-rouge">nothing</code>.)</p>
-
-<p><em>SelectOption</em> : Selection option. You can use either <code class="language-plaintext highlighter-rouge">swSelectOptionDefault</code> or <code class="language-plaintext highlighter-rouge">swSelectOptionExtensive</code> value.</p>
-
-<p><strong>Return Value</strong> - If the item is select then this method returns <code class="language-plaintext highlighter-rouge">True</code> and otherwise <code class="language-plaintext highlighter-rouge">False</code>.</p>
+<p>If the item is select then this method returns <code class="language-plaintext highlighter-rouge">True</code> and otherwise <code class="language-plaintext highlighter-rouge">False</code>.</p>
 
 <p>There is <strong>a lot more</strong> about this method in the <strong><em>Remark</em></strong> section. For more information visit <a href="http://help.solidworks.com/2017/english/api/sldworksapi/solidworks.interop.sldworks~solidworks.interop.sldworks.imodeldocextension~selectbyid2.html">here</a>.</p>
 
@@ -786,7 +812,7 @@
 <span class="k">End</span> <span class="k">Sub</span>
 </code></pre></div></div>
 
-<p>Most of the things in this code sample is already explained <a href="/solidworks-macro/open-new-document">this post</a> and in previous section of this very post.</p>
+<p>Most of the things in this code sample is already explained <strong><a href="/solidworks-macros/open-new-document">previous post</a></strong> and in previous section of this very post.</p>
 
 <p>In this code I have set the <em>Solidworks document variable</em> <code class="language-plaintext highlighter-rouge">swDoc</code> to active open document.</p>
 
@@ -798,12 +824,6 @@
 
 <p>In next post we learn about <strong><em>Open Saved Documents</em></strong>.</p>
 
-<!-- This is post navigation bar 
-<div class="w3-bar w3-margin-top w3-margin-bottom">
-  <a href="/solidworks-macros/open-assembly-and-drawing" class="w3-button w3-rose">&#10094; Previous</a>
-  <a href="/solidworks-macros/open-saved-document" class="w3-button w3-rose w3-right">Next &#10095;</a>
-</div>
--->
 
         
       </section>

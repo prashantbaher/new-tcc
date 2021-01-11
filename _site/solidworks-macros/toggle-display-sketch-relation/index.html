@@ -34,7 +34,7 @@
 
 
 
-  <meta property="article:published_time" content="2021-01-09T08:33:02+00:00">
+  <meta property="article:published_time" content="2021-01-11T14:29:04+00:00">
 
 
 
@@ -522,35 +522,20 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#content">Content</a></li><li><a href="#code-sample">Code Sample</a></li><li><a href="#understanding-the-code">Understanding the Code</a></li></ul>
+              <ul class="toc__menu"><li><a href="#code-sample">Code Sample</a></li><li><a href="#understanding-the-code">Understanding the Code</a></li></ul>
 
             </nav>
           </aside>
         
         <p>In this post, I tell you about <strong>how to Toggle (Hide/Show) Sketch Relations using Solidworks VBA Macros</strong> in a Sketch.</p>
 
-<p>This post is extension to <strong><em><a href="/solidworks-macro/rotate-copy-sketch-entities">Sketch Transformation - Rotate/Copy Sketch Entities</a></em></strong> post.</p>
+<p>This post is extension to <strong><em><a href="/solidworks-macros/rotate-copy-sketch-entities">Sketch Transformation - Rotate/Copy Sketch Entities</a></em></strong> post.</p>
 
 <p>Hence I will explained only <strong><em>Toggle (Hide/Show) Sketch Relations</em></strong> related code.</p>
 
 <p>In this post, I explain about <code class="language-plaintext highlighter-rouge">SetUserPreferenceToggle</code> method from <strong>Solidworks</strong>’s <code class="language-plaintext highlighter-rouge">ModelDoc2</code> object.</p>
 
 <p>This method is <strong><em>NOT updated</em></strong> method, but it is easiest way to <strong><em>Toggle (Hide/Show) Sketch Relations</em></strong>.</p>
-
-<h2 id="content">Content</h2>
-
-<p>This post is divided into below sections:</p>
-
-<ul>
-  <li>
-    <p><em><a href="#code-sample">Code Sample</a></em></p>
-  </li>
-  <li>
-    <p><em><a href="#understanding-the-code">Understanding the Code</a></em></p>
-  </li>
-</ul>
-
-<p>Feel free to select the section you want to go!</p>
 
 <hr />
 
@@ -684,7 +669,7 @@
 
 <h2 id="understanding-the-code">Understanding the Code</h2>
 
-<p>I have already discuss above code in previous <strong><em><a href="/solidworks-macro/rotate-copy-sketch-entities">Sketch Transformation - Rotate/Copy Sketch Entities</a></em></strong> post except below line of code.</p>
+<p>I have already discuss above code in previous <strong><em><a href="/solidworks-macros/rotate-copy-sketch-entities">Sketch Transformation - Rotate/Copy Sketch Entities</a></em></strong> post except below line of code.</p>
 
 <div class="language-vb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">' Toggle (Hide/Show) Sketch Relations</span>
 <span class="n">BoolStatus</span> <span class="o">=</span> <span class="n">swDoc</span><span class="p">.</span><span class="n">SetUserPreferenceToggle</span><span class="p">(</span><span class="n">swUserPreferenceToggle_e</span><span class="p">.</span><span class="n">swViewSketchRelations</span><span class="p">,</span> <span class="k">True</span><span class="p">)</span>
@@ -699,7 +684,7 @@
 </ul>
 
 <blockquote>
-  <p>NOTE: <code class="language-plaintext highlighter-rouge">swUserPreferenceToggle_e</code> has many values!!!  Hence it is not possible to list all of them here. If you want to check full list, please visit <strong><a href="https://help.solidworks.com/2020/English/api/swconst/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUserPreferenceToggle_e.html">this page</a></strong>.</p>
+  <p>NOTE: <code class="language-plaintext highlighter-rouge">swUserPreferenceToggle_e</code> has many values!!!  Hence it is not possible to list all of them here. If you want to check full list, please visit <strong><a href="https://help.solidworks.com/2020/English/api/swconst/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUserPreferenceToggle_e.html">this page of Solidworks API Help</a></strong>.</p>
 </blockquote>
 
 <ul>

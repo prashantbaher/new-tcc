@@ -34,7 +34,7 @@
 
 
 
-  <meta property="article:published_time" content="2021-01-09T08:33:02+00:00">
+  <meta property="article:published_time" content="2021-01-11T14:29:04+00:00">
 
 
 
@@ -529,7 +529,7 @@
         
         <p>In this post, I tell you about <em>how to create Circle By Radius through Solidworks VBA Macros</em> in a sketch.</p>
 
-<p>The process is identical with previous <a href="/solidworks-macro/create-circle">Solidworks Sketch Macros - Create Circle</a> post.</p>
+<p>The process is identical with previous <strong><a href="/solidworks-macros/create-circle">Solidworks Sketch Macros - Create Circle</a></strong> post.</p>
 
 <p>In this post, I tell you about <code class="language-plaintext highlighter-rouge">CreateCircleByRadius</code> method from <strong>Solidworks</strong> <code class="language-plaintext highlighter-rouge">SketchManager</code> object.</p>
 
@@ -599,7 +599,7 @@
 
 <p>This line forces us to define every variable we are going to use.</p>
 
-<p>For more information please visit <a href="/solidworks-macro/open-new-document">Solidworks Macros - Open new Part document</a> post.</p>
+<p>For more information please visit <strong><a href="/solidworks-macros/open-new-document">Solidworks Macros - Open new Part document</a></strong> post.</p>
 
 <div class="language-vb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">' Creating variable for Solidworks application</span>
 <span class="k">Dim</span> <span class="nv">swApp</span> <span class="ow">As</span> <span class="n">SldWorks</span><span class="p">.</span><span class="n">SldWorks</span>
@@ -641,7 +641,7 @@
 
 <p>In this line, we set the value of our <code class="language-plaintext highlighter-rouge">swDoc</code> variable to new document.</p>
 
-<p>For <strong>detailed information</strong> about these lines please visit <a href="/solidworks-macro/open-new-document">Solidworks Macros - Open new Part document</a> post.</p>
+<p>For <strong>detailed information</strong> about these lines please visit <strong><a href="/solidworks-macros/open-new-document">Solidworks Macros - Open new Part document</a></strong> post.</p>
 
 <div class="language-vb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">' Boolean Variable</span>
 <span class="k">Dim</span> <span class="nv">BoolStatus</span> <span class="ow">As</span> <span class="kt">Boolean</span>
@@ -654,7 +654,7 @@
 
 <p>In next line, we select the <em>front plane</em> by using <code class="language-plaintext highlighter-rouge">SelectByID2</code> method from <code class="language-plaintext highlighter-rouge">Extension</code> object.</p>
 
-<p>For more information about selection method please visit <a href="/solidworks-macro/select-plane-from-tree">Solidworks Macros - Selection Methods</a> post.</p>
+<p>For more information about selection method please visit <strong><a href="/solidworks-macros/select-plane-from-tree">Solidworks Macros - Selection Methods</a></strong> post.</p>
 
 <div class="language-vb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">' Creating variable for Solidworks Sketch Manager</span>
 <span class="k">Dim</span> <span class="nv">swSketchManager</span> <span class="ow">As</span> <span class="n">SldWorks</span><span class="p">.</span><span class="n">SketchManager</span>
@@ -664,7 +664,7 @@
 
 <p>As the name suggested, a Sketch Manager holds variours methods and properties to manage Sketches.</p>
 
-<p>To see methods and properties related to SketchManager object, please visit <a href="help.solidworks.com/2017/english/api/sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html">this page</a></p>
+<p>To see methods and properties related to SketchManager object, please visit <strong><a href="https://help.solidworks.com/2017/english/api/sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html">this page of Solidworks API</a></strong></p>
 
 <div class="language-vb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">' Setting Sketch manager for our sketch</span>
 <span class="k">Set</span> <span class="n">swSketchManager</span> <span class="o">=</span> <span class="n">swDoc</span><span class="p">.</span><span class="n">SketchManager</span>
@@ -697,7 +697,7 @@
 
 <p>Therefore, the <code class="language-plaintext highlighter-rouge">SketchSegment</code> interface provides functions to obtain the ID and to select the item.</p>
 
-<p>For detailed information about the <code class="language-plaintext highlighter-rouge">SketchSegment</code> please visit <a href="http://help.solidworks.com/2017/english/api/sldworksapi/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html">this page of Solidworks API Help</a></p>
+<p>For detailed information about the <code class="language-plaintext highlighter-rouge">SketchSegment</code> please visit <strong><a href="http://help.solidworks.com/2017/english/api/sldworksapi/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html">this page of Solidworks API Help</a></strong></p>
 
 <p>In 2nd line, we set the value of sketch segment variable <code class="language-plaintext highlighter-rouge">mySketchSegment</code>.</p>
 
